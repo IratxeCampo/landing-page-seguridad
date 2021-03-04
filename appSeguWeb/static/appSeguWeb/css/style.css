@@ -218,6 +218,10 @@
 			margin: -1em 0 3.5em 0;
 		}
 
+		header.major p mark{
+			background-color: rgb(255, 253, 123);;
+		}
+
 /* Form */
 
 	form {
@@ -1004,7 +1008,7 @@
 	}
 
 		.wrapper.style1 {
-			background: #f2f2f2;
+			background: #fff1db;
 		}
 
 			.wrapper.style1 .box {
@@ -1238,7 +1242,7 @@
 	#banner {
 		background-attachment: scroll,						fixed;
 		background-color: #494d53;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;
@@ -1298,9 +1302,10 @@
 			padding: 0;
 		}
 
-		#banner p {
+		#banner p strong {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
+			color: #ffffff;
 		}
 
 	body.is-loading #banner:after {
