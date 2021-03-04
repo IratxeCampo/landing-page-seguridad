@@ -1,18 +1,6 @@
 - 74 caracteres en texto de arriba
 
-- al parecer el fondo de la cosa de arriba del todo no es una imagen, metemos un 
-jumbotron de bootstrap y a correr
-
-- mirar las templates antiguas en los html subidos en el zip y ver si 
-nos mola eso de que haya cosa flotando en sitios raros
-
 - confirmar que en movil se ve todo gucci
 
-- fondo pastel caca fuera
-
-- otra forma de resaltar texto que no sea subrayar?? en engrita queda 
-demasiado BOOM creo...
-
-- fotos de correos (el correo tocho y de ahí ir quitando cosas)
-
-- conteo de visitas a la pag (asier acaba de encontrar a dos indios con la respuesta)
+- conteo de visitas a la pag (asier acaba de encontrar a dos indios con la 
+respuesta)
