@@ -26,124 +26,152 @@
 	<body class="landing">
 
 		<!-- Header -->
-			<header id="header" class="alt skel-layers-fixed">
-				<nav id="nav">
-					<ul>
-						<li><a href="{% url 'index'%}">Home</a></li>
-					</ul>
-				</nav>
-			</header>
+		<!-- <header id="header" class="alt skel-layers-fixed"> -->
+		<header id="header" class="alt">
+			<nav id="nav">
+				<ul>
+					<li><a href="{% url 'index'%}">Home</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<h2>Magna Aliquam</h2>
-					<p>Sed lorem ipsum sed dolor nullam adipiscing</p>
-					<ul class="actions">
-						<li><a href="#one" class="button big scrolly">Learn More</a></li>
-					</ul>
-				</div>
-			</section>
+		<section id="banner">
+			<div class="inner">
+				<h2>¡Te hemos pillado!</h2>
+				<p>No deberías estar aquí, ¡has caído víctima de un ataque de phishing!</p>
+				<ul class="actions">
+					<li><a href="#mejorasin" class="button big scrolly">¿Qué es esto?</a></li>
+				</ul>
+			</div>
+		</section>
 
-		
-			<section class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Lorem ipsum dolor</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="slider">
-						<span class="nav-previous"></span>
-						<div class="viewer">
-							<div class="reel">
-								<div class="slide">
-									<img src="{% static 'appSeguWeb/images/slide01.jpg'%}" alt="" />
-								</div>
-								<div class="slide">
-									<img src="{% static 'appSeguWeb/images/slide02.jpg'%}" alt="" />
-								</div>
-								<div class="slide">
-									<img src="{% static 'appSeguWeb/images/slide03.jpg'%}" alt="" />
-								</div>
+		<!-- Content -->
+		<section id="mejorasin" class="wrapper style1">
+			<div class="container">
+				<header class="major">
+					<h2>Si estás en esta página...</h2>
+					<p>
+						...significa que <u>podrías haber caído presa de un ataque de phishing</u> <br />
+						proveniente de un atacante con peores intenciones que las nuestras.<br />
+						Organizado por el Servicio Técnico de la Universidad de Deusto, esto no es más que <br />
+						una <u>prueba inofensiva</u> cuyo objetivo es el de <u>evaluar al colectivo <br />
+						estudiantil</u> como posible vector de ataque a los sistemas de la universidad <br />
+						(Alud, Gaude, MyApps y demás plataformas...).<br />
+						<br />
+						En otras palabras, si estás leyendo esto, eso quiere decir que <u>has pinchado <br />
+						en el link de un correo</u> que, en un principio, <u>debería haber levantado ciertas <br />
+						sospechas</u>. Ahora mismo podrías estar viendo una réplica exacta de la página de <br />
+						Alud, Gaude o cualquier otra plataforma de la universidad copiada por alguien <br />
+						para, por ejemplo, <u>hacerse con tus credenciales de inicio de sesión.</u><br />
+						<br />
+						¿Crees que habrías picado?
+					</p>
+				</header>
+				<div class="slider">
+					<span class="nav-previous"></span>
+					<div class="viewer">
+						<div class="reel">
+							<div class="slide">
+								<img src="{% static 'appSeguWeb/images/slide01.jpg'%}" alt="" />
+							</div>
+							<div class="slide">
+								<img src="{% static 'appSeguWeb/images/slide02.jpg'%}" alt="" />
+							</div>
+							<div class="slide">
+								<img src="{% static 'appSeguWeb/images/slide03.jpg'%}" alt="" />
 							</div>
 						</div>
-						<span class="nav-next"></span>
 					</div>
+					<span class="nav-next"></span>
 				</div>
-			</section>
-			
-		
+			</div>
+		</section>
+
 		<!-- One -->
-			<section id="one" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>Amet nisl consequat</h2>
-						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
-					</header>
-					<div class="row">
-						<div class="4u 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="{% url 'left-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/pic01.jpg'%}" alt="" /></a>
-								<h3>Sed amet lorem</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="{% url 'left-sidebar'%}" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u 6u$(2) 12u$(3)">
-							<article class="box post">
-								<a href="{% url 'no-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/pic02.jpg'%}" alt="" /></a>
-								<h3>Massa accumsan</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="{% url 'no-sidebar'%}" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						<div class="4u$ 6u(2) 12u$(3)">
-							<article class="box post">
-								<a href="{% url 'right-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/pic03.jpg'%}" alt="" /></a>
-								<h3>Faucibus portitor</h3>
-								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
-								<ul class="actions">
-									<li><a href="{% url 'right-sidebar'%}" class="button">Learn More</a></li>
-								</ul>
-							</article>
-						</div>
-						
+		<section id="one" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="4u 6u(2) 12u$(3)">
+						<article class="box post">
+							<a href="{% url 'left-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
+							<h3>¿Qué es un ataque de phishing?</h3>
+							<p>
+								Es uno de los ataques más comunes en torno a robo de credenciales, 
+								cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada 
+								importancia.
+							</p>
+							<ul class="actions">
+								<li><a href="{% url 'left-sidebar'%}" class="button">¿Qué es?</a></li>
+							</ul>
+						</article>
+					</div>
+					<div class="4u 6u$(2) 12u$(3)">
+						<article class="box post">
+							<a href="{% url 'no-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
+							<h3>¿De qué va este experimento exactamente?</h3>
+							<p>
+								Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué 
+								función tiene y su filosofía...
+							</p>
+							<ul class="actions">
+								<li><a href="{% url 'no-sidebar'%}" class="button">¿De qué va?</a></li>
+							</ul>
+						</article>
+					</div>
+					<div class="4u$ 6u(2) 12u$(3)">
+						<article class="box post">
+							<a href="{% url 'right-sidebar'%}" class="image fit"><img src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
+							<h3>¿Qué otros correos hemos utilizado?</h3>
+							<p>
+								Echa un vistazo al resto de correos falsos que hemos utilizado para este 
+								experimento. ¿En cuáles crees que habrías caído?
+							</p>
+							<ul class="actions">
+								<li><a href="{% url 'right-sidebar'%}" class="button">Ver correos</a></li>
+							</ul>
+						</article>
 					</div>
 				</div>
-			</section>
-			
+				<header class="major">
+					<br />
+					<h2>Párrafo promocional de charlueta y NO NOS FUNEIS EL EXPE</h2>
+					<p>
+						Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
+						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
+						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.
+					</p>
+					<br />
+				</header>
+			</div>
+		</section>
+
 		<!-- CTA -->
-			<!-- <section id="cta" class="wrapper style3">
-				<h2>Sed faucibus et consequat</h2>
-				<ul class="actions">
-					<li><a href="#" class="button big">Get Started</a></li>
-				</ul>
-			</section>
-			 -->
+		<!-- <section id="cta" class="wrapper style3">
+			<h2>Sed faucibus et consequat</h2>
+			<ul class="actions">
+				<li><a href="#" class="button big">Get Started</a></li>
+			</ul>
+		</section> -->
+
 		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<!--el de twitter se podria cambiar por el de deusto en vez de deustoing-->
-					<li><a href="https://twitter.com/ingdeusto?lang=es" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.facebook.com/UDeusto/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/udeusto/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-				<!-- <ul class="menu">
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Terms of Use</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul> -->
-				
-			</footer>
+		<footer id="footer">
+			<ul class="icons">
+				<!--el de twitter se podria cambiar por el de deusto en vez de deustoing-->
+				<li><a href="https://twitter.com/ingdeusto?lang=es" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/UDeusto/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/udeusto/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+			</ul>
+			<!-- <ul class="menu">
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Terms of Use</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul> -->
+			<ul class="menu">
+				<li>Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea y Servicio Técnico UD</li>
+			</ul>
+		</footer>
 
 	</body>
 </html>
