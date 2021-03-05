@@ -12,8 +12,11 @@ def main(request):
 
     return render(request, 'appSeguWeb/index.html', {'title': 'Index'})
 
-def elements(request):
+def memes(request):
     return render(request, 'appSeguWeb/memes.html', {'title': 'Memes'})
+
+def manopicaste(request):
+    return render(request, 'appSeguWeb/manopicaste.html', {'title': 'Mano Picaste'})
 
 def noSide(request):
     return render(request, 'appSeguWeb/no-sidebar.html', {'title': 'No sidebar'})
