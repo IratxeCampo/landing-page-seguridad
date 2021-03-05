@@ -52,34 +52,33 @@
 		<!-- Content -->
 		<section id="mejorasin" class="wrapper style1">
 			<div class="container">
-				<header class="major">
-					<h2>Si estás en esta página...</h2>
-					<p>
-						...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> <br />
-						proveniente de un atacante con peores intenciones que las nuestras.<br />
-						Organizado por el Servicio Técnico de la Universidad de Deusto, esto no es más que <br />
-						una <mark>prueba inofensiva</mark> cuyo objetivo es el de <mark>evaluar al colectivo <br />
-						estudiantil</mark> como posible vector de ataque a los sistemas de la universidad <br />
-						(Alud, Gaude, MyApps y demás plataformas...).<br />
-						<br />
-						En otras palabras, si estás leyendo esto, eso quiere decir que <mark>has pinchado <br />
-						en el link de un correo</mark> que, en un principio, <mark>debería haber levantado ciertas <br />
-						sospechas</mark>. Ahora mismo podrías estar viendo una réplica exacta de la página de <br />
-						Alud, Gaude o cualquier otra plataforma de la universidad copiada por alguien <br />
-						para, por ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark><br />
-						<br />
-						<br />
-						¿Crees que habrías picado?
-					</p>
-				</header>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<header class="major">
+							<h2>Si estás en esta página...</h2>
+							<p>
+								...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> 
+								proveniente de un atacante con peores intenciones que las nuestras.
+								Organizado por el Servicio Técnico de la Universidad de Deusto, esto no es más que 
+								una <mark>prueba inofensiva</mark> cuyo objetivo es el de <mark>evaluar al colectivo 
+								estudiantil</mark> como posible vector de ataque a los sistemas de la universidad 
+								(Alud, Gaude, MyApps y demás plataformas...).
+								<br /><br />
+								En otras palabras, si estás leyendo esto, eso quiere decir que <mark>has pinchado 
+								en el link de un correo</mark> que, en un principio, <mark>debería haber levantado ciertas 
+								sospechas</mark>. Ahora mismo podrías estar viendo una réplica exacta de la página de 
+								Alud, Gaude o cualquier otra plataforma de la universidad copiada por alguien 
+								para, por ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark>
+								<br /><br />
+								¿Crees que habrías picado?
+							</p>
+						</header>
+					</div>
+				</div>
 			</div>
-		</section>
-
-		<!-- One -->
-		<section id="one" class="wrapper style1">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-md-4">
+					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'left-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
 							<h3>¿Qué es un ataque de phishing?</h3>
@@ -93,7 +92,7 @@
 							</ul>
 						</article>
 					</div>
-					<div class="col-xs-12 col-md-4">
+					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'no-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
 							<h3>¿De qué va este experimento exactamente?</h3>
@@ -106,8 +105,7 @@
 							</ul>
 						</article>
 					</div>
-
-					<div class="col-xs-12 col-md-4">
+					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'right-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
 							<h3>¿Qué otros correos hemos utilizado?</h3>
@@ -120,17 +118,13 @@
 							</ul>
 						</article>
 					</div>
-					
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-md-4 offset-md-4">
+					<div class="col-md-4 offset-md-4">
 						<article class="box post">
 							<a href="{% url 'memes'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/memes/slavcheem.jpg'%}" alt="" /></a>
 							<h4>Ya que estás aquí...</h4>
 							<h3>¿Quieres ver memes?</h3>
-							<p>
-								
-							</p>
 							<ul class="actions">
 								<li><a href="{% url 'memes'%}" class="button">Ver memes</a></li>
 							</ul>
@@ -138,21 +132,25 @@
 					</div>
 				</div>
 				<header class="major">
-					<br />
-					<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
-					<p>
-						Como te hemos explicado, nuestra intención con este experimento es concienciar. Por eso, cuanta más gente se
-						encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
-					<br /><br />
-						Por lo tanto, te pedimos por favor que antes de compartir esta página, esperes al lunes XX de marzo, día en el que
-						publicaremos los resultados de esta campaña en nuestras redes sociales.
-					<br /><br />
-						Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta
-						campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser
-						el gancho perfecto.
-					<br /><br />
-						¡Gracias!
-					<br /><br />
+					<div class="row">
+						<div class="col-md-8 offset-md-2">
+							<br />
+							<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
+							<p>
+								Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se
+								encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
+								<br /><br />
+								Por lo tanto, te pedimos por favor que <mark>antes de compartir esta página, esperes al lunes XX de marzo</mark>, día en el que
+								publicaremos los resultados de esta campaña en nuestras redes sociales.
+								<br /><br />
+								Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta
+								campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser
+								el gancho perfecto.
+								<br /><br />
+								¡Gracias!
+							</p>
+						</div>
+					</div>
 				</header>
 			</div>
 		</section>
