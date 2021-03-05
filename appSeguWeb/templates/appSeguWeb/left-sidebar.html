@@ -18,117 +18,100 @@
 		
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/skel.css'%}" />
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/style.css'%}" />
-		<link rel="stylesheet" href="{% static 'appSeguWeb/css/style-xlarge.css'%}" />
+		<link rel="stylesheet" media="screen and (min-width:900px)" href="{% static 'appSeguWeb/css/style-xlarge.css'%}" />
+		<link rel="stylesheet" media="screen and (max-width:600px)" href="{% static 'appSeguWeb/css/style-xsmall.css'%}" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
 		<!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-				<nav id="nav">
-					<ul>
-						<li><a href="{% url 'index' %}">Home</a></li>
-						
-					</ul>
-				</nav>
-			</header>
+		<header id="header" class="skel-layers-fixed">
+			<nav id="nav">
+				<ul>
+					<li><a href="{% url 'index' %}">Home</a></li>
+					
+				</ul>
+			</nav>
+		</header>
 
 		<!-- Main -->
-			<section id="main" class="wrapper style1">
-				<header class="major">
-					<h2>¿Qué es un ataque de phishing?</h2>
-					<p>
-						Es uno de los ataques más comunes en torno a robo de credenciales, <br />
-						cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada <br />
-						importancia.
-					</p>
-				</header>
-				<div class="container">
-					<div class="row 150%">
-						<!-- <div class="4u 12u$(2)">
-							Sidebar
-							<section id="sidebar">
-								<section>
-									<h3>Phishing</h3>
-									<p>
-										Por definición, un ataque de phishing consiste en la adquisición de información valiosa acerca de un sujeto pretendiendo ser alguien de confianza.
-									</p>
-								</section>
-								<hr />
-								<section>
-									<a href="#" class="image fit"><img src="{% static 'appSeguWeb/images/pic02.jpg'%}" alt="" /></a>
-									<h3>Amet Lorem Tempus</h3>
-									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-								</section>
-							</section>
-						</div> -->
-						<!-- <div class="8u 12u$(2) important(2)"> -->
-						<div>
-							<!-- Content -->
-							<section id="content">
-								<a href="#" class="image fit"><img class="center" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
-								<h3>Phishing</h3>
-								<p>
-									Por definición, un ataque de phishing consiste en la adquisición de 
-									información valiosa acerca de un sujeto pretendiendo ser alguien de 
-									confianza. En este caso, nosotros hemos pretendido ser el Servicio Técnico 
-									UD pidiendo que revisaras tu cuenta y, de haber sido un atacante con 
-									nefarias intenciones, habríamos replicado una de las páginas de la 
-									universidad para conseguir tus credenciales.
-								</p>
-								<p>
-									Si te fijas, la dirección de correo utilizada para enviar el mensaje no es 
-									una de las que utiliza la universidad normalmente. No estamos diciendo que 
-									deberíamos tener en mente en todo momento qué direcciones de correo 
-									utiliza la universidad para cualquier cosa, pero tener una lista blanca 
-									(<a href="https://www.lifewire.com/how-to-whitelist-a-sender-or-domain-in-gmail-1172106" target="_blank">
-									whitelisting</a>) de direcciones de correo puede ser una buena práctica para 
-									un correo empresarial futuro o similares.
-								</p>
-								<img class="center" src="{% static 'appSeguWeb/images/gugle2.gif'%}" alt="" />
-								<br />
-								<p>
-									De la misma manera que nosotros hemos utilizado ese dominio (proporcionado 
-									por Servicio Técnico UD), se pueden comprar dominios los suficientemente 
-									parecidos para pasar totalmente inadvertidos. ¿Crees que te darías cuenta 
-									a la primera si, de repente, te empiezan a llegar correos de @desuto.es, 
-									o @deusta.es?
-								</p>
-								<h3>Multitud de medios</h3>
-								<p>
-									Como tal, los ataques de phishing no se limitan solo a correos 
-									empresariales u oficiales. Esta suplantación de identidad de entidades o 
-									personas de confianza se puede realizar por medio de diferentes métodos de 
-									comunicación:
-								</p>
-								<ul>
-									<li>SMS</li>
-									<li>Llamadas de teléfono</li>
-									<li>Cartas por correo</li>
-									<li>Encuestas por la calle</li>
-									<li>Páginas web falsas (idénticas a las originales)</li>
-									<li>...</li>
-								</ul>
-								<img class="center" src="{% static 'appSeguWeb/images/fotophishy2.jpeg'%}" alt="" />
-								<br />
-								<p>
-									¿Alguna vez has recibido este tipo de mensaje al teléfono? ¿Estás cansad@ 
-									de que te lleguen? Ahora, por lo menos, sabes cómo llamar a este tipo de 
-									mensajes en los que, en algún momento, te vayan a pedir algún tipo de 
-									información confidencial.
-								</p>
-								<p>
-									Existen varios tipos de phishing: spear phishing (cuando se intenta atacar 
-									a alguien en concreto, un CEO, por ejemplo), pharming (phishing via 
-									correos a multitud de personas, esperando que caigan unos pocos por lo 
-									menos), smishing (SMS phishing), vishing (voice phishing)...
-								</p>
-							</section>
-						</div>
+		<section id="main" class="wrapper style1">
+			<header class="major">
+				<h2>¿Qué es un ataque de phishing?</h2>
+				<p>
+					Es uno de los ataques más comunes en torno a robo de credenciales, <br />
+					cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada <br />
+					importancia.
+				</p>
+			</header>
+			<div class="container">
+				<div class="row 150%">
+					<div>
+						<!-- Content -->
+						<section id="content">
+							<a href="#" class="image fit"><img class="center" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
+							<h3>Phishing</h3>
+							<p>
+								Por definición, un ataque de phishing consiste en la adquisición de 
+								información valiosa acerca de un sujeto pretendiendo ser alguien de 
+								confianza. En este caso, nosotros hemos pretendido ser el Servicio Técnico 
+								UD pidiendo que revisaras tu cuenta y, de haber sido un atacante con 
+								nefarias intenciones, habríamos replicado una de las páginas de la 
+								universidad para conseguir tus credenciales.
+							</p>
+							<p>
+								Si te fijas, la dirección de correo utilizada para enviar el mensaje no es 
+								una de las que utiliza la universidad normalmente. No estamos diciendo que 
+								deberíamos tener en mente en todo momento qué direcciones de correo 
+								utiliza la universidad para cualquier cosa, pero tener una lista blanca 
+								(<a href="https://www.lifewire.com/how-to-whitelist-a-sender-or-domain-in-gmail-1172106" target="_blank">
+								whitelisting</a>) de direcciones de correo puede ser una buena práctica para 
+								un correo empresarial futuro o similares.
+							</p>
+							<img class="center" src="{% static 'appSeguWeb/images/gugle2.gif'%}" alt="" />
+							<br />
+							<p>
+								De la misma manera que nosotros hemos utilizado ese dominio (proporcionado 
+								por Servicio Técnico UD), se pueden comprar dominios los suficientemente 
+								parecidos para pasar totalmente inadvertidos. ¿Crees que te darías cuenta 
+								a la primera si, de repente, te empiezan a llegar correos de @desuto.es, 
+								o @deusta.es?
+							</p>
+							<h3>Multitud de medios</h3>
+							<p>
+								Como tal, los ataques de phishing no se limitan solo a correos 
+								empresariales u oficiales. Esta suplantación de identidad de entidades o 
+								personas de confianza se puede realizar por medio de diferentes métodos de 
+								comunicación:
+							</p>
+							<ul>
+								<li>SMS</li>
+								<li>Llamadas de teléfono</li>
+								<li>Cartas por correo</li>
+								<li>Encuestas por la calle</li>
+								<li>Páginas web falsas (idénticas a las originales)</li>
+								<li>...</li>
+							</ul>
+							<img class="center" src="{% static 'appSeguWeb/images/fotophishy2.jpeg'%}" alt="" />
+							<br />
+							<p>
+								¿Alguna vez has recibido este tipo de mensaje al teléfono? ¿Estás cansad@ 
+								de que te lleguen? Ahora, por lo menos, sabes cómo llamar a este tipo de 
+								mensajes en los que, en algún momento, te vayan a pedir algún tipo de 
+								información confidencial.
+							</p>
+							<p>
+								Existen varios tipos de phishing: spear phishing (cuando se intenta atacar 
+								a alguien en concreto, un CEO, por ejemplo), pharming (phishing via 
+								correos a multitud de personas, esperando que caigan unos pocos por lo 
+								menos), smishing (SMS phishing), vishing (voice phishing)...
+							</p>
+						</section>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 
 		<!-- Footer -->
 		<footer id="footer">

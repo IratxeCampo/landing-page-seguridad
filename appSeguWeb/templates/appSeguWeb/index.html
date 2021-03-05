@@ -20,7 +20,8 @@
 
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/skel.css'%}" />
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/style.css'%}" />
-		<link rel="stylesheet" href="{% static 'appSeguWeb/css/style-xlarge.css'%}" />
+		<link rel="stylesheet" media="screen and (min-width:900px)" href="{% static 'appSeguWeb/css/style-xlarge.css'%}" />
+		<link rel="stylesheet" media="screen and (max-width:600px)" href="{% static 'appSeguWeb/css/style-xsmall.css'%}" />
 
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -70,32 +71,6 @@
 						¿Crees que habrías picado?
 					</p>
 				</header>
-				<div class="slider">
-					<span class="nav-previous"></span>
-					<div class="viewer">
-						<div class="reel">
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/bernie.jpg'%}" alt="" />
-							</div>
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/brain.jpg'%}" alt="" />
-							</div>
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/bugsbunny.jpg'%}" alt="" />
-							</div>
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/goku\ smile.jpg'%}" alt="" />
-							</div>
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/losperros.jpg'%}" alt="" />
-							</div>
-							<div class="slide">
-								<img class="center" src="{% static 'appSeguWeb/images/memes/monoQMira.jpg'%}" alt="" />
-							</div>
-						</div>
-					</div>
-					<span class="nav-next"></span>
-				</div>
 			</div>
 		</section>
 
@@ -103,8 +78,7 @@
 		<section id="one" class="wrapper style1">
 			<div class="container">
 				<div class="row">
-					<!-- <div class="4u 6u(2) 12u$(3)"> -->
-					<div class="col-md-4">
+					<div class="col-xs-12 col-md-4">
 						<article class="box post">
 							<a href="{% url 'left-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
 							<h3>¿Qué es un ataque de phishing?</h3>
@@ -118,8 +92,7 @@
 							</ul>
 						</article>
 					</div>
-					<!-- <div class="4u 6u$(2) 12u$(3)"> -->
-					<div class="col-md-4">
+					<div class="col-xs-12 col-md-4">
 						<article class="box post">
 							<a href="{% url 'no-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
 							<h3>¿De qué va este experimento exactamente?</h3>
@@ -132,8 +105,7 @@
 							</ul>
 						</article>
 					</div>
-					<!-- <div class="4u$ 6u(2) 12u$(3)"> -->
-					<div class="col-md-4">
+					<div class="col-xs-12 col-md-4">
 						<article class="box post">
 							<a href="{% url 'right-sidebar'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
 							<h3>¿Qué otros correos hemos utilizado?</h3>
@@ -149,11 +121,22 @@
 				</div>
 				<header class="major">
 					<br />
-					<h2>Párrafo promocional de charlueta y NO NOS FUNEIS EL EXPE</h2>
+					<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
 					<p>
-						Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
-						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
-						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.
+						Como te hemos explicado, nuestra intención con este experimento es concienciar. Por eso, cuanta más gente se
+						encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
+					</p>
+					<p>
+						Por lo tanto, te pedimos por favor que antes de compartir esta página, esperes al lunes XX de marzo, día en el que
+						publicaremos los resultados de esta campaña en nuestras redes sociales.
+					</p>
+					<p>
+						Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta
+						campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser
+						el gancho perfecto.
+					</p>
+					<p>
+						¡Gracias!
 					</p>
 					<br />
 				</header>
