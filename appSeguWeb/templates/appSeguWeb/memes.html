@@ -16,6 +16,8 @@
 		<script src="{% static 'appSeguWeb/js/skel-layers.min.js'%}"></script>
 		<script src="{% static 'appSeguWeb/js/init.js'%}"></script>
 		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/skel.css'%}" />
 		<link rel="stylesheet" href="{% static 'appSeguWeb/css/style.css'%}" />
 		<link rel="stylesheet" media="screen and (min-width:900px)" href="{% static 'appSeguWeb/css/style-xlarge.css'%}" />
@@ -34,39 +36,48 @@
 				</nav>
 			</header>
 
-		<!-- Main -->
-		<section id="main" class="wrapper style1">
-			<header class="major">
-				<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
-				<p>Es importante que otros puedan picar igual que tú.</p>
-			</header>
+		<!-- One -->
+		<section id="one" class="wrapper style1">
 			<div class="container">
-				<!-- Content -->
-				<section id="content">
-					<img class="center" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" />
-					<br />
-					<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
-					<p>
-						Como te hemos explicado, nuestra intención con este experimento es concienciar. Por eso, cuanta más gente se
-						encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
-					</p>
-					<p>
-						Por lo tanto, te pedimos por favor que antes de compartir esta página, esperes al lunes XX de marzo, día en el que
-						publicaremos los resultados de esta campaña en nuestras redes sociales.
-					</p>
-					<p>
-						Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta
-						campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser
-						el gancho perfecto.
-					</p>
-					<p>
-						¡Gracias!
-					</p>
-					<br />
-				</section>
-			</div>
+				<header class="major">
+					<h2>Lorem ipsum dolor</h2>
+					<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
+					sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
+					blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
+				</header>
+				
+				<div style="margin:auto; width: fit-content;" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/bernie.jpg'%}" alt="">
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/brain.jpg'%}" alt="">
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/monoQmira.jpg'%}" alt="">
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/losperros.jpg'%}" alt="">
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/tenemosbugsbunny.png'%}" alt="">
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="{% static 'appSeguWeb/images/memes/veyeta.jpg'%}" alt="">
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
 		</section>
-
+		
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
@@ -78,6 +89,9 @@
 				<li>Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea y Servicio Técnico UD</li>
 			</ul>
 		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	</body>
 </html>
