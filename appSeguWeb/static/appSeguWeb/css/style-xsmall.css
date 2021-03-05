@@ -94,6 +94,8 @@
 
 	#banner {
 		padding: 5em 2em 4em 2em;
+		background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg");
+		position: relative;
 	}
 
 /* CTA */

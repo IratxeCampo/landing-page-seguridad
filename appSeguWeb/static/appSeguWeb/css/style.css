@@ -1241,9 +1241,9 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,						fixed;
+		/* background-attachment: scroll,						fixed; */
 		background-color: #494d53;
-		background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg");
+		/* background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg"); */
 		background-position: top left,					center center;
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;

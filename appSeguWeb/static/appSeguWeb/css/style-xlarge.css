@@ -14,4 +14,6 @@
 
 	#banner {
 		padding: 12em 0;
+		background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg");
+		background-attachment: scroll,						fixed;
 	}
