@@ -13,7 +13,7 @@ def main(request):
     return render(request, 'appSeguWeb/index.html', {'title': 'Index'})
 
 def elements(request):
-    return render(request, 'appSeguWeb/elements.html', {'title': 'Elements'})
+    return render(request, 'appSeguWeb/memes.html', {'title': 'Memes'})
 
 def noSide(request):
     return render(request, 'appSeguWeb/no-sidebar.html', {'title': 'No sidebar'})
