@@ -10,13 +10,13 @@ def main(request):
 
     global paths, count
 
-    return render(request, 'appSeguWeb/index.html', {'title': 'Index'})
+    return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
 
 def memes(request):
     return render(request, 'appSeguWeb/memes.html', {'title': 'Memes'})
 
 def manopicaste(request):
-    return render(request, 'appSeguWeb/manopicaste.html', {'title': 'Mano Picaste'})
+    return render(request, 'appSeguWeb/manopicaste.html', {'title': 'Picaste'})
 
 def experimento(request):
     return render(request, 'appSeguWeb/experimento.html', {'title': '¿De qué va este experimento?'})
