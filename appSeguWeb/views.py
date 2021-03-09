@@ -18,14 +18,11 @@ def memes(request):
 def manopicaste(request):
     return render(request, 'appSeguWeb/manopicaste.html', {'title': 'Mano Picaste'})
 
-def noSide(request):
-    return render(request, 'appSeguWeb/no-sidebar.html', {'title': 'No sidebar'})
+def experimento(request):
+    return render(request, 'appSeguWeb/experimento.html', {'title': '¿De qué va este experimento?'})
 
-def leftSide(request):
-    return render(request, 'appSeguWeb/left-sidebar.html', {'title': 'Left sidebar'})
+def phishing(request):
+    return render(request, 'appSeguWeb/phishing.html', {'title': '¿Qué es un ataque de phising?'})
 
-def rightSide(request):
-    return render(request, 'appSeguWeb/right-sidebar.html', {'title': 'Right sidebar'})
-
-def aboutUs(request):
-    return render(request, 'appSeguWeb/about-us.html', {'title': 'About us'})
+def otrosCorreos(request):
+    return render(request, 'appSeguWeb/otros-correos.html', {'title': '¿Qué otros correos hemos utilizado?'})
