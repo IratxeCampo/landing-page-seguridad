@@ -27,4 +27,5 @@ def leftSide(request):
 def rightSide(request):
     return render(request, 'appSeguWeb/right-sidebar.html', {'title': 'Right sidebar'})
 
-
+def aboutUs(request):
+    return render(request, 'appSeguWeb/about-us.html', {'title': 'About us'})
