@@ -97,6 +97,64 @@
 						landing para poder recoger cuántas visitas únicas obtenemos y así poder 
 						publicar datos estadísticos al respecto una vez terminada la campaña.
 					</p>
+					<h3>¿De dónde ha salido este proyecto?</h3>
+					<p>
+						Originalmente, todo esto iba a ser un proyecto nuestro para la asignatura de 
+						Seguridad de la Información que tenemos los informáticos. La idea original 
+						consistía en evaluar, desde el punto de vista de un atacante, la viabilidad de 
+						una intrusión en los sistemas de la Universidad de Deusto con un nivel 
+						información y conocimiento mínimos acerca de las direcciones de correo.
+					</p>
+					<p>
+						El proyecto consistía en coger uno de los censos que el Ayuntamiento de Bilbao 
+						<a href="https://liburutegibiltegi.bizkaia.eus/handle/20.500.11938/80403" target="_blank">
+						tiene públicos en su página web</a> para obtener varios apellidos comunes en la 
+						zona de Bilbao (donde se presupone que habrá más estudiantes de Deusto...). Lo 
+						siguiente sería conseguir un par de listas de top-10 nombres en euskara y en 
+						español para combinar con esos apellidos y, así, tener distintas direcciones 
+						de correo ficticias que podrían o no existir actualmente en los sistemas de 
+						Deusto pertenecientes a estudiantes/integrantes de la universidad (profesores, 
+						estudiantes y otros).
+					</p>
+					<p>
+						Esas direcciones de correo ficticias se modificarían para satisfacer 
+						diferentes posibles formatos (nombre.apellido, nombreapellido...) y así poder 
+						abarcar un mayor rango de posibilidades a la hora de acertar con las 
+						direcciones de correo. Y, una vez obtenidas las listas de direcciones de correo,
+						proseguiríamos con el experimento de la misma manera que hemos realizado este 
+						(dominio desde el cual enviar correos, generar la página web, etc.).
+					</p>
+					<img class="center" src="{% static 'appSeguWeb/images/correos.png'%}" alt="" />
+					<br />
+					<p>
+						Esta primera versión del proyecto tiene varios inconvenientes:
+					</p>
+					<ul>
+						<li>Al estar organizando esto desde "fuera" de la universidad, por nuestra cuenta, 
+							estaríamos dañando la imagen de la universidad al realizar un ataque de este tipo.</li>
+						<br />
+						<li>Si lo hubiéramos organizado por nuestra cuenta, aquellos a los que les 
+							llegara el correo no tendrían ningún tipo de confianza en nosotros solo por el 
+							simple hecho de que seamos estudiantes haciendo un trabajo. No todo el mundo en la 
+							universidad nos conoce y, por lo tanto, esta crisis de confianza podría generar 
+							bastantes dolores de cabeza a dirigentes de la universidad con multitud de personas 
+							preguntando sobre "¿¿¿Por qué me acaban de atacar??? ¿¿¿Qué está pasando??? ¿¿Han 
+							robado mis datos???".</li>
+						<br />
+						<li>La propia tarea de preparar un servidor de hosteo para la página web y un servidor 
+							de SMTP para los correos habría añadido considerable complejidad al proyecto y, a 
+							lo mejor, más partes móviles de las que hubiéramos sido capaces de manejar 
+							por nuestra cuenta para que funcionase todo a la perfección.</li>
+					</ul>
+					<div style="text-align: center;" class="img-container"><img src="{% static 'appSeguWeb/images/pwned.jpg'%}" alt="" /></div>
+					<br />
+					<p>
+						Gracias a la inestimable ayuda de nuestro profesor de Seguridad de la Información, Iker 
+						Pastor López, Iker sabiamente nos señaló estos inconvenientes y nos propuso realizar 
+						este mismo proyecto pero de forma coordinada y conjunta con Servicio Informático, así 
+						como con Lorena Fernández Álvarez (Directora de identidad digital de UD) para la 
+						posterior campaña en redes sociales.
+					</p>
 				</section>
 			</div>
 		</section>
@@ -104,12 +162,14 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="https://twitter.com/ingdeusto?lang=es" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="https://www.facebook.com/UDeusto/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="https://www.instagram.com/udeusto/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://twitter.com/deusto" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/UDeusto/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/udeusto/?hl=es" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 			</ul>
 			<ul class="menu">
-				<li>Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea y Servicio Informático UD</li>
+				<li>Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea, 
+					Iker Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez y 
+					todo el equipo de Servicio Informático UD</li>
 			</ul>
 		</footer>
 
