@@ -34,8 +34,12 @@
 		<!-- Header -->
 		<!-- <header id="header" class="alt skel-layers-fixed"> -->
 		<header id="header" class="skel-layers-fixed">
+			<div style="float: left;" class="navbar-header">
+				<p class="navbar-brand" ><img class="resize" style="max-width: 20%; max-height: 20%;" src="{% static 'appSeguWeb/images/deusto-logo.png' %}"></p>
+			</div>
 			<nav id="nav">
-				<ul>
+				
+				<ul style="float: right;">
 					<li class="nav-item dropdown connection">
                         <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language"></i> </a>
                         <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
@@ -53,6 +57,7 @@
                         </ul>
                     </li>
 					<li><a href="{% url 'index'%}">Home</a></li>
+
 				</ul>
 			</nav>
 		</header>
@@ -60,12 +65,13 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="inner">
+				<img class="resize" style="height: 5%; width: 5%;" src="{% static 'appSeguWeb/images/logodeusto.png'%}" alt="" />			
 				<h2>{% translate '¡Te hemos pillado!' %}</h2>
 				<p><strong>{% translate 'NoDeberiasVerEsto' %}</strong></p>
 				<ul class="actions">
 					<li><a href="#mejorasin" class="button big scrolly">{% translate '¿Qué es esto?' %}</a></li>
 				</ul>
-			</div>
+				</div>
 		</section>
 
 		<!-- Content -->
@@ -76,6 +82,7 @@
 						<header class="major">
 							<h2>{% translate 'Si estás en esta página...' %}</h2>
 							<p>{%blocktranslate%}
+								
 								...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> 
 								proveniente de un atacante con peores intenciones que las nuestras.
 								Organizado por el Servicio Informático de la Universidad de Deusto, esto no es más que 
@@ -91,6 +98,7 @@
 								<br /><br />
 								¿Crees que habrías picado?
 								{%endblocktranslate%}
+								
 							</p>
 						</header>
 					</div>
