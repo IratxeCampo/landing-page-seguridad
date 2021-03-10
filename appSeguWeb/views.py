@@ -26,3 +26,6 @@ def phishing(request):
 
 def otrosCorreos(request):
     return render(request, 'appSeguWeb/otros-correos.html', {'title': '¿Qué otros correos hemos utilizado?'})
+
+def view_404(request, exception):
+    return render(request, 'appSeguWeb/404.html', {'title': 'Error 404'})
