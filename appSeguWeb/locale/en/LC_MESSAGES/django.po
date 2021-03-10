@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: templates/appSeguWeb/index.html:104 templates/appSeguWeb/index.html:106
+#: templates/appSeguWeb/index.html:118 templates/appSeguWeb/index.html:120
+#: templates/appSeguWeb/index.html:124 templates/appSeguWeb/index.html:131
+#: templates/appSeguWeb/index.html:133 templates/appSeguWeb/index.html:146
+#: templates/appSeguWeb/index.html:147 templates/appSeguWeb/index.html:149
+#: templates/appSeguWeb/index.html:158
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 12:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/appSeguWeb/index.html:63
+msgid "¡Te hemos pillado!"
+msgstr "We got you!"
+
+#: templates/appSeguWeb/index.html:64
+msgid "NoDeberiasVerEsto"
+msgstr ""
+
+#: templates/appSeguWeb/index.html:66
+msgid "¿Qué es esto?"
+msgstr ""
+
+#: templates/appSeguWeb/index.html:77
+msgid "Si estás en esta página..."
+msgstr ""
+
+#: templates/appSeguWeb/index.html:78
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\t...significa que <mark>podrías haber caído presa de un "
+"ataque de phishing</mark> \n"
+"\t\t\t\t\t\t\t\tproveniente de un atacante con peores intenciones que las "
+"nuestras.\n"
+"\t\t\t\t\t\t\t\tOrganizado por el Servicio Informático de la Universidad de "
+"Deusto, esto no es más que \n"
+"\t\t\t\t\t\t\t\tuna <mark>prueba inofensiva</mark> cuyo objetivo es el de "
+"<mark>evaluar al colectivo \n"
+"\t\t\t\t\t\t\t\testudiantil</mark> como posible vector de ataque a los "
+"sistemas de la universidad \n"
+"\t\t\t\t\t\t\t\t(Alud, Gaude, MyApps y demás plataformas...).\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tEn otras palabras, si estás leyendo esto, eso quiere decir "
+"que <mark>has pinchado \n"
+"\t\t\t\t\t\t\t\ten el link de un correo</mark> que, en un principio, "
+"<mark>debería haber levantado ciertas \n"
+"\t\t\t\t\t\t\t\tsospechas</mark>. Ahora mismo podrías estar viendo una "
+"réplica exacta de la página de \n"
+"\t\t\t\t\t\t\t\tAlud, Gaude o cualquier otra plataforma de la universidad "
+"copiada por alguien \n"
+"\t\t\t\t\t\t\t\tpara, por ejemplo, <mark>hacerse con tus credenciales de "
+"inicio de sesión.</mark>\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\t¿Crees que habrías picado?\n"
+"\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: templates/appSeguWeb/index.html:160
+msgid ""
+" Como te hemos explicado, <mark>nuestra intención con este experimento es "
+"concienciar</mark>. Por eso, cuanta más gente se\n"
+"\t\t\t\t\t\t\t\tencuentre con esta página de improviso después de pinchar en "
+"su correo, más importante será el efecto que tendrá.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tPor lo tanto, te pedimos por favor que <mark>antes de "
+"compartir esta página, esperes al lunes XX de marzo</mark>, día en el que\n"
+"\t\t\t\t\t\t\t\tpublicaremos los resultados de esta campaña en nuestras "
+"redes sociales.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\tComo colofón, porque sabemos que a todos nos gustan unos "
+"buenos memes, os dejamos los que hemos creado para esta\n"
+"\t\t\t\t\t\t\t\tcampaña y que podrías haber visto en el encabezado de la "
+"página, si la sonrisa de Vegeta no hubiese demostrado ser\n"
+"\t\t\t\t\t\t\t\tel gancho perfecto.\n"
+"\t\t\t\t\t\t\t\t<br /><br />\n"
+"\t\t\t\t\t\t\t\t¡Gracias!\n"
+"\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: templates/appSeguWeb/index.html:187
+msgid "cortesía"
+msgstr ""

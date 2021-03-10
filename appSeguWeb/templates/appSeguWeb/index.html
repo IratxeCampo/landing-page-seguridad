@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 {% load static %}
+{% load i18n %}
 <html>
 	<head>
 		<title> {{title}}</title>
@@ -35,6 +36,22 @@
 		<header id="header" class="skel-layers-fixed">
 			<nav id="nav">
 				<ul>
+					<li class="nav-item dropdown connection">
+                        <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language"></i> </a>
+                        <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " style="text-align: center">
+                                        <button onclick="changeLanguage(this)" name="en" class="connection-item"><img src="{% static 'appSeguWeb/images/bandera_en.png' %}" alt="" ></button>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <button onclick="changeLanguage(this)" name="es" class="connection-item"><img src="{% static 'appSeguWeb/images/bandera_es.png' %}" alt="" ></button>
+                                    </div>
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " style="text-align: center">
+                                        <button onclick="changeLanguage(this)" name="eu" class="connection-item"><img src="{% static 'appSeguWeb/images/bandera_eus.png' %}" alt="" ></button>
+                                    </div>
+                                </div>
+                        </ul>
+                    </li>
 					<li><a href="{% url 'index'%}">Home</a></li>
 				</ul>
 			</nav>
@@ -43,10 +60,10 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="inner">
-				<h2>¡Te hemos pillado!</h2>
-				<p><strong>No deberías estar aquí, ¡has caído víctima de un ataque de phishing!</strong></p>
+				<h2>{% translate '¡Te hemos pillado!' %}</h2>
+				<p><strong>{% translate 'NoDeberiasVerEsto' %}</strong></p>
 				<ul class="actions">
-					<li><a href="#mejorasin" class="button big scrolly">¿Qué es esto?</a></li>
+					<li><a href="#mejorasin" class="button big scrolly">{% translate '¿Qué es esto?' %}</a></li>
 				</ul>
 			</div>
 		</section>
@@ -57,8 +74,8 @@
 				<div class="row">
 					<div class="col-md-8 offset-md-2">
 						<header class="major">
-							<h2>Si estás en esta página...</h2>
-							<p>
+							<h2>{% translate 'Si estás en esta página...' %}</h2>
+							<p>{%blocktranslate%}
 								...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> 
 								proveniente de un atacante con peores intenciones que las nuestras.
 								Organizado por el Servicio Informático de la Universidad de Deusto, esto no es más que 
@@ -73,6 +90,7 @@
 								para, por ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark>
 								<br /><br />
 								¿Crees que habrías picado?
+								{%endblocktranslate%}
 							</p>
 						</header>
 					</div>
@@ -83,9 +101,9 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'phishing'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
-							<h3>¿Qué es un ataque de phishing?</h3>
+							<h3>{% translate '' %}¿Qué es un ataque de phishing?</h3>
 							<p>
-								Es uno de los ataques más comunes en torno a robo de credenciales, 
+								{% translate '' %}Es uno de los ataques más comunes en torno a robo de credenciales, 
 								cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada 
 								importancia.
 							</p>
@@ -97,22 +115,22 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'experimento'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
-							<h3>¿De qué va este experimento exactamente?</h3>
+							<h3>{% translate '' %}¿De qué va este experimento exactamente?</h3>
 							<p>
-								Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué 
+								{% translate '' %}Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué 
 								función tiene y su filosofía...
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'experimento'%}" class="button">¿De qué va?</a></li>
+								<li><a href="{% url 'experimento'%}" class="button">{% translate '' %}¿De qué va?</a></li>
 							</ul>
 						</article>
 					</div>
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'otros-correos'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
-							<h3>¿Qué otros correos hemos utilizado?</h3>
+							<h3>{% translate '' %}¿Qué otros correos hemos utilizado?</h3>
 							<p>
-								Echa un vistazo a los correos falsos que hemos utilizado para este 
+								{% translate '' %}Echa un vistazo a los correos falsos que hemos utilizado para este 
 								experimento. ¿En cuáles crees que habrías caído?
 							</p>
 							<ul class="actions">
@@ -125,10 +143,10 @@
 					<div class="col-md-4 offset-md-4">
 						<article class="box post">
 							<a href="{% url 'memes'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/memes/slavcheem.jpg'%}" alt="" /></a>
-							<h4>Ya que estás aquí...</h4>
-							<h3>¿Quieres ver memes?</h3>
+							<h4>{% translate '' %}Ya que estás aquí...</h4>
+							<h3>{% translate '' %}¿Quieres ver memes?</h3>
 							<ul class="actions">
-								<li><a href="{% url 'memes'%}" class="button">Ver memes</a></li>
+								<li><a href="{% url 'memes'%}" class="button">{% translate '' %}Ver memes</a></li>
 							</ul>
 						</article>
 					</div>
@@ -137,9 +155,9 @@
 					<div class="row">
 						<div class="col-md-8 offset-md-2">
 							<br />
-							<h2>Antes de ir a compartir esto, ¡ESPERA!</h2>
+							<h2>{% translate '' %}Antes de ir a compartir esto, ¡ESPERA!</h2>
 							<p>
-								Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se
+								{%blocktranslate%} Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se
 								encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
 								<br /><br />
 								Por lo tanto, te pedimos por favor que <mark>antes de compartir esta página, esperes al lunes XX de marzo</mark>, día en el que
@@ -150,6 +168,7 @@
 								el gancho perfecto.
 								<br /><br />
 								¡Gracias!
+								{% endblocktranslate %}
 							</p>
 						</div>
 					</div>
@@ -165,15 +184,25 @@
 				<li><a href="https://www.instagram.com/udeusto/?hl=es" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 			</ul>
 			<ul class="menu">
-				<li>Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea, 
-					Iker Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez y 
-					todo el equipo de Servicio Informático UD</li>
+				<li>{% translate 'cortesía' %}</li>
 			</ul>
 		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+		<script type="text/javascript">
+			var languages = ["en", "es", "eu"]
+			function changeLanguage(element){
+				var currentURLParameters = window.location.pathname.split("/");
+				if (languages.includes(currentURLParameters[1])){
+					currentURLParameters[1] = element.name;
+					window.location = "http://127.0.0.1:8000" + currentURLParameters.join("/")
+				}else{
+					window.location = "http://127.0.0.1:8000/" + element.name + currentURLParameters.join("/")
+				}
+			}
+		</script>
+		
 	</body>
 </html>
