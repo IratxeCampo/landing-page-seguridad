@@ -41,24 +41,12 @@
 			<nav id="nav">
 				
 				<ul style="float: right;">
-					<li class="nav-item dropdown connection">
-                        <a class="nav-link" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language"></i> </a>
-                        <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
-                                <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " style="text-align: center">
-                                        <button onclick="changeLanguage(this)" name="en" class="connection-item"><img src="{% static 'appSeguWeb/images/en.png' %}" alt="" ></button>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
-                                        <button onclick="changeLanguage(this)" name="es" class="connection-item"><img src="{% static 'appSeguWeb/images/es.png' %}" alt="" ></button>
-                                    </div>
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 " style="text-align: center">
-                                        <button onclick="changeLanguage(this)" name="eu" class="connection-item"><img src="{% static 'appSeguWeb/images/eus.png' %}" alt="" ></button>
-                                    </div>
-                                </div>
-                        </ul>
+					<li>
+                        <button onclick="changeLanguage(this)" name="en" class="connection-item"><img src="{% static 'appSeguWeb/images/en.png' %}" alt="" ></button>
+                        <button onclick="changeLanguage(this)" name="es" class="connection-item"><img src="{% static 'appSeguWeb/images/es.png' %}" alt="" ></button>
+                        <button onclick="changeLanguage(this)" name="eu" class="connection-item"><img src="{% static 'appSeguWeb/images/eus.png' %}" alt="" ></button>
+                        <a href="{% url 'index'%}">Home</a>
                     </li>
-					<li><a href="{% url 'index'%}">Home</a></li>
-
 				</ul>
 			</nav>
 		</header>
