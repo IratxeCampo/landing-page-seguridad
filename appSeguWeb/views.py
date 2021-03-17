@@ -2,14 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-paths = []
-
-count = 0
-
 def main(request):
-
-    global paths, count
-
     return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
 
 def memes(request):
