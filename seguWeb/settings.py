@@ -27,7 +27,12 @@ SECRET_KEY = '+$mdmi+*(eutri!9^*8!asol-u6+gq@&l1ej#gj1p6e25a52@$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", "192.168.1.131", "localhost"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "192.168.1.131",
+    "localhost",
+    "192.168.1.132",
+]
 
 
 # Application definition
@@ -40,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'appSeguWeb',
+    'request',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'request.middleware.RequestMiddleware',
 ]
 
 ROOT_URLCONF = 'seguWeb.urls'
