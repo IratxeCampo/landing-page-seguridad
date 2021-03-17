@@ -1,8 +1,23 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from .models import Grupete, LasHoras
+from datetime import datetime
 
 # Create your views here.
 
-def main(request):
+def main(request, id_grupete):
+
+    datetaim = datetime.now()
+
+    grupete = Grupete.objects.get(id_grupete=id_grupete)
+    grupete.visitas += 1
+    grupete.save()
+
+    lashorejas = LasHoras.objects.create(grupete=grupete, datetime_acceso=datetaim)
+    lashorejas.save()
+
+    return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
+
+def main2(request):
     return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
 
 def memes(request):
