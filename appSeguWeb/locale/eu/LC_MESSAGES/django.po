@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 17:14+0000\n"
+"POT-Creation-Date: 2021-03-24 17:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -506,6 +506,18 @@ msgid ""
 "phishing), \n"
 "\t\t\t\t\t\tvishing (voice phishing)...\n"
 "\t\t\t\t\t\t"
+msgstr ""
+
+#: seguWeb/settings.py:128
+msgid "English"
+msgstr ""
+
+#: seguWeb/settings.py:129
+msgid "Español"
+msgstr ""
+
+#: seguWeb/settings.py:130
+msgid "Euskera"
 msgstr ""
 
 #~ msgid "QEsEsto"

@@ -133,7 +133,7 @@ LANGUAGES = (
 LANGUAGE_CODE = 'es'
 
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'appSeguWeb\\locale'),
+    os.path.join(BASE_DIR, 'appSeguWeb/locale'),
 )
 
 
