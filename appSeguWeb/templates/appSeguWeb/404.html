@@ -23,9 +23,9 @@
 	</style>
 	<section class="wrapper">
 		<div class="container">
-			<h1>Vaya...</h1>
-			<h1>Parece que no existe esa página...</h1>
-			<h2>Vuelve a la <a href="{% url 'index' %}">página principal</a></h2>
+			<h1>{% translate 'Vaya...' %}</h1>
+			<h1>{% translate 'Parece que no existe esa página...' %}</h1>
+			<h2>{% translate 'Vuelve a la ' %}<a href="{% url 'index' %}">{% translate 'página principal' %}</a></h2>
 		</div>
 	</section>
 	

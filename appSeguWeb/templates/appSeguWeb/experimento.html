@@ -5,16 +5,16 @@
 	<!-- Main -->
 	<section id="main" class="wrapper style1">
 		<header class="major">
-			<h2>¿De qué va este experimento exactamente?</h2>
-			<p>Te explicamos los orígenes del proyecto, su función y su filosofía.</p>
+			<h2>{% translate '¿De qué va este experimento exactamente?' %}</h2>
+			<p>{% translate 'Te explicamos los orígenes del proyecto, su función y su filosofía.' %}</p>
 		</header>
 		<div class="container">
 			<!-- Content -->
 			<section id="content">
 				<img class="center" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" />
 				<br />
-				<h3>Motivación del proyecto</h3>
-				<p>
+				<h3>{% translate 'Motivación del proyecto' %}</h3>
+				<p>{%blocktranslate%}
 					La motivación principal de este proyecto es la de concienciar a los 
 					estudiantes de su nivel y conocimientos actuales en lo que respecta la 
 					seguridad informática y la gestión de comunicaciones. Dada cierta base de 
@@ -23,15 +23,17 @@
 					UD por un posible atacante el cual envía correos suficientemente 
 					sospechosos es un buen baremo para estimar el nivel de alerta general del 
 					cuerpo estudiantil a la hora de ataques de phishing.
+					{%endblocktranslate%}
 				</p>
-				<p>
+				<p>{%blocktranslate%}
 					Anteriormente, ya se habían realizado estudios de este tipo enfocados 
 					únicamente al profesorado e investigadores de la universidad, pero nunca 
 					antes se había realizado de cara a los estudiantes de grado, master y 
 					doctorado.
+					{%endblocktranslate%}
 				</p>
-				<h3>Función del proyecto</h3>
-				<p>
+				<h3>{% translate 'Función del proyecto' %}</h3>
+				<p>{%blocktranslate%}
 					El proyecto busca ser un detonante inicial para que los estudiantes 
 					reflexionemos sobre la seguridad de la información de cada un@, mentalizar 
 					a los alumnos sobre diferentes posibles señales de alarma en correos 
@@ -40,14 +42,16 @@
 					vector de ataque a los sistemas de la universidad. Y, si realmente lo 
 					somos, se propondrían unas charlas informativas acerca de diferentes 
 					buenas prácticas e información general.
+					{%endblocktranslate%}
 				</p>
-				<p>
+				<p>{%blocktranslate%}
 					En resumen, este proyecto tiene la labor de sensibilizar a la comunidad 
 					estudiantil acerca de la importancia de la seguridad digital y realizar 
 					un estudio de la situación actual.
+					{%endblocktranslate%}
 				</p>
-				<h3>¿Qué se ha hecho exactamente?</h3>
-				<p>
+				<h3>{% translate '¿Qué se ha hecho exactamente?' %}</h3>
+				<p>{%blocktranslate%}
 					El proyecto constaba de tres partes fundamentales: (1) un dominio desde el 
 					cual enviar los correos y hostear la página que estás viendo ahora mismo, 
 					(2) una lista de correos de estudiantes para realizar el experimento en sí 
@@ -55,16 +59,18 @@
 					sabemos quién visita la página) y (3) una serie de correos destinados a 
 					distintos grupos de correos de dicha lista con diferentes niveles de 
 					sofisticación (unos correos más currados que otros a fin de cuentas).
+					{%endblocktranslate%}
 				</p>
 				<img class="center" src="{% static 'appSeguWeb/images/explicasao.png'%}" alt="" />
 				<br />
-				<p>
+				<p>{%blocktranslate%}
 					Los distintos tipos de correos enviados redirigen todos a esta página de 
 					landing para poder recoger cuántas visitas únicas obtenemos y así poder 
 					publicar datos estadísticos al respecto una vez terminada la campaña.
+					{%endblocktranslate%}
 				</p>
-				<h3>¿De dónde ha salido este proyecto?</h3>
-				<p>
+				<h3>{% translate '¿De dónde ha salido este proyecto?' %}</h3>
+				<p>{%blocktranslate%}
 					Originalmente, todo esto iba a ser un proyecto nuestro para la asignatura de 
 					Seguridad de la Información que tenemos los informáticos, asignatura impartida 
 					por Iker Pastor López, integrante fundamental de este proyecto para su 
@@ -72,8 +78,9 @@
 					consistía en evaluar, desde el punto de vista de un atacante, la viabilidad de 
 					una intrusión en los sistemas de la Universidad de Deusto con un nivel 
 					información y conocimiento mínimos acerca de las direcciones de correo de Deusto.
+					{%endblocktranslate%}
 				</p>
-				<p>
+				<p>{%blocktranslate%}
 					El proyecto consistía en coger uno de los censos que el Ayuntamiento de Bilbao 
 					<a href="https://liburutegibiltegi.bizkaia.eus/handle/20.500.11938/80403" target="_blank">
 					tiene públicos en su página web</a> para obtener varios apellidos comunes en la 
@@ -83,45 +90,49 @@
 					de correo ficticias que podrían o no existir actualmente en los sistemas de 
 					Deusto pertenecientes a integrantes de la universidad (profesores, 
 					estudiantes y otros).
+					{%endblocktranslate%}
 				</p>
-				<p>
+				<p>{%blocktranslate%}
 					Esas direcciones de correo ficticias se modificarían para satisfacer 
 					diferentes posibles formatos (nombre.apellido, nombreapellido...) y así poder 
 					abarcar un mayor rango de posibilidades a la hora de acertar con las 
 					direcciones de correo. Y, una vez obtenidas las listas de direcciones de correo,
 					proseguiríamos con el experimento de la misma manera que hemos realizado este 
 					(dominio desde el cual enviar correos, generar la página web, etc.).
+					{%endblocktranslate%}
 				</p>
 				<img class="center" src="{% static 'appSeguWeb/images/correos.png'%}" alt="" />
 				<br />
-				<p>
+				<p>{%blocktranslate%}
 					Esta primera versión del proyecto tiene varios inconvenientes:
+					{%endblocktranslate%}
 				</p>
 				<ul>
-					<li>Al estar organizando esto desde "fuera" de la universidad, por nuestra cuenta, 
-						estaríamos dañando la imagen de la universidad al realizar un ataque de este tipo.</li>
+					<li>{%blocktranslate%}Al estar organizando esto desde "fuera" de la universidad, por nuestra cuenta, 
+						estaríamos dañando la imagen de la universidad al realizar un ataque de este tipo.{%endblocktranslate%}</li>
 					<br />
-					<li>Si lo hubiéramos organizado por nuestra cuenta, aquellos a los que les 
+					<li>{%blocktranslate%}Si lo hubiéramos organizado por nuestra cuenta, aquellos a los que les 
 						llegara el correo no tendrían ningún tipo de confianza en nosotros solo por el 
 						simple hecho de que seamos estudiantes haciendo un trabajo. No todo el mundo en la 
 						universidad nos conoce y, por lo tanto, esta crisis de confianza podría generar 
 						bastantes dolores de cabeza a dirigentes de la universidad con multitud de personas 
 						preguntando sobre "¿¿¿Por qué me acaban de atacar??? ¿¿¿Qué está pasando??? ¿¿Han 
-						robado mis datos???".</li>
+						robado mis datos???".{%endblocktranslate%}</li>
 					<br />
-					<li>La propia tarea de preparar un servidor de hosteo para la página web y un servidor 
+					<li>{%blocktranslate%}La propia tarea de preparar un servidor de hosteo para la página web y un servidor 
 						de SMTP para los correos habría añadido considerable complejidad al proyecto y, a 
 						lo mejor, más partes móviles de las que hubiéramos sido capaces de manejar 
-						por nuestra cuenta para que funcionase todo a la perfección.</li>
+						por nuestra cuenta para que funcionase todo a la perfección.{%endblocktranslate%}</li>
 				</ul>
 				<div style="text-align: center;" class="img-container"><img src="{% static 'appSeguWeb/images/pwned.jpg'%}" alt="" /></div>
 				<br />
-				<p>
+				<p>{%blocktranslate%}
 					Gracias a la inestimable ayuda de nuestro profesor de Seguridad de la Información, Iker 
 					Pastor López, Iker sabiamente nos señaló estos inconvenientes y nos propuso realizar 
 					este mismo proyecto pero de forma coordinada y conjunta con Servicio Informático, así 
 					como con Lorena Fernández Álvarez (Directora de identidad digital de UD) para la 
 					posterior campaña en redes sociales.
+					{%endblocktranslate%}
 				</p>
 			</section>
 		</div>

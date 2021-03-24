@@ -49,11 +49,12 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'phishing'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
-							<h3>{% translate '' %}¿Qué es un ataque de phishing?</h3>
+							<h3>{% translate '¿Qué es un ataque de phishing?' %}</h3>
 							<p>
-								{% translate '' %}Es uno de los ataques más comunes en torno a robo de credenciales, 
+								{% blocktranslate %} Es uno de los ataques más comunes en torno a robo de credenciales, 
 								cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada 
 								importancia.
+								{% endblocktranslate %}
 							</p>
 							<ul class="actions">
 								<li><a href="{% url 'phishing'%}" class="button">¿Qué es?</a></li>
@@ -63,10 +64,10 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'experimento'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
-							<h3>{% translate '' %}¿De qué va este experimento exactamente?</h3>
+							<h3>{% translate '¿De qué va este experimento exactamente?' %}</h3>
 							<p>
-								{% translate '' %}Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué 
-								función tiene y su filosofía...
+								{% translate 'Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué 
+								función tiene y su filosofía...' %}
 							</p>
 							<ul class="actions">
 								<li><a href="{% url 'experimento'%}" class="button">{% translate '' %}¿De qué va?</a></li>
@@ -76,10 +77,10 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'otros-correos'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
-							<h3>{% translate '' %}¿Qué otros correos hemos utilizado?</h3>
+							<h3>{% translate '¿Qué otros correos hemos utilizado?' %}</h3>
 							<p>
-								{% translate '' %}Echa un vistazo a los correos falsos que hemos utilizado para este 
-								experimento. ¿En cuáles crees que habrías caído?
+								{% translate 'Echa un vistazo a los correos falsos que hemos utilizado para este 
+								 experimento. ¿En cuáles crees que habrías caído?' %}
 							</p>
 							<ul class="actions">
 								<li><a href="{% url 'otros-correos'%}" class="button">Ver correos</a></li>
@@ -91,10 +92,10 @@
 					<div class="col-md-4 offset-md-4">
 						<article class="box post">
 							<a href="{% url 'memes'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/memes/slavcheem.jpg'%}" alt="" /></a>
-							<h4>{% translate '' %}Ya que estás aquí...</h4>
-							<h3>{% translate '' %}¿Quieres ver memes?</h3>
+							<h4>{% translate 'Ya que estás aquí...' %}</h4>
+							<h3>{% translate '¿Quieres ver memes?' %}</h3>
 							<ul class="actions">
-								<li><a href="{% url 'memes'%}" class="button">{% translate '' %}Ver memes</a></li>
+								<li><a href="{% url 'memes'%}" class="button">{% translate 'Ver memes' %}</a></li>
 							</ul>
 						</article>
 					</div>
@@ -103,7 +104,7 @@
 					<div class="row">
 						<div class="col-md-8 offset-md-2">
 							<br />
-							<h2>{% translate '' %}Antes de ir a compartir esto, ¡ESPERA!</h2>
+							<h2>{% translate 'Antes de ir a compartir esto, ¡ESPERA!' %}</h2>
 							<p>
 								{%blocktranslate%} Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se
 								encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.
