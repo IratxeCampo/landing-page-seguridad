@@ -1,23 +1,24 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect
 from .models import Grupete, LasHoras
 from datetime import datetime
 
 # Create your views here.
 
-def main(request, id_grupete):
+def main(request):
 
-    datetaim = datetime.now()
+    if len(request.GET) == 0:
+        pass
+    elif len(request.GET) == 1:
+        grupete = Grupete.objects.filter(id_grupete=request.GET["c"])
+        if len(grupete) > 0: # ouyeah pillamos [0], megachapuza
+            datetaim = datetime.now() # TO-DO
+            grupete[0].visitas += 1
+            grupete[0].save()
+            lashorejas = LasHoras.objects.create(grupete=grupete[0], datetime_acceso=datetaim) # TO-DO
+            lashorejas.save()
+    else:
+        pass
 
-    grupete = Grupete.objects.get(id_grupete=id_grupete)
-    grupete.visitas += 1
-    grupete.save()
-
-    lashorejas = LasHoras.objects.create(grupete=grupete, datetime_acceso=datetaim)
-    lashorejas.save()
-
-    return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
-
-def main2(request):
     return render(request, 'appSeguWeb/index.html', {'title': 'Ataque de phishing'})
 
 def memes(request):
