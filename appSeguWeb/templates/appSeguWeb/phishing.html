@@ -1,15 +1,17 @@
 {% extends "appSeguWeb/base.html" %}
 {% load static %}
+{% load i18n %}
 	
 {% block content %}º
 <!-- Main -->
 <section id="main" class="wrapper style1">
 	<header class="major">
-		<h2>{% translate '' %}¿Qué es un ataque de phishing?</h2>
-		<p>
+		<h2>{% translate '¿Qué es un ataque de phishing?' %}</h2>
+		<p>{% blocktranslate %}
 			Es uno de los ataques más comunes en torno a robo de credenciales, <br />
 			cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada <br />
 			importancia.
+			{% endblocktranslate %}
 		</p>
 	</header>
 	<div class="container">
@@ -49,10 +51,16 @@
 						{% endblocktranslate %}
 					</p>
 					<h3>{% translate 'Multitud de medios' %}</h3>
+					<p>{% blocktranslate %}
+						Existen varios tipos de phishing: spear phishing (cuando se intenta atacar 
+						a alguien en concreto, un CEO, por ejemplo), smishing (SMS phishing), 
+						vishing (voice phishing)...
+						{% endblocktranslate %}
+					</p>
 					<p> {% blocktranslate %}
 						Como tal, los ataques de phishing no se limitan solo a correos 
 						empresariales u oficiales. Esta suplantación de identidad de entidades o 
-						personas de confianza se puede realizar por medio de diferentes métodos de 
+						personas de confianza se puede realizar por medio de diferentes medios de 
 						comunicación:
 						{% endblocktranslate %}
 					</p>
@@ -71,12 +79,6 @@
 						de que te lleguen? Ahora, por lo menos, sabes cómo llamar a este tipo de 
 						mensajes en los que, en algún momento, te vayan a pedir algún tipo de 
 						información confidencial.
-						{% endblocktranslate %}
-					</p>
-					<p>{% blocktranslate %}
-						Existen varios tipos de phishing: spear phishing (cuando se intenta atacar 
-						a alguien en concreto, un CEO, por ejemplo), smishing (SMS phishing), 
-						vishing (voice phishing)...
 						{% endblocktranslate %}
 					</p>
 				</section>
