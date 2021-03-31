@@ -289,15 +289,15 @@ msgstr "We got you!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:11
 msgid "NoDeberiasVerEsto"
-msgstr ""
+msgstr "You shouldn't be here, you've fallen victim to a phishing attack!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:13
 msgid "¿Qué es esto?"
-msgstr ""
+msgstr "What is this?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:24
 msgid "Si estás en esta página..."
-msgstr ""
+msgstr "If you are on this page..."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:25
 msgid ""
@@ -328,12 +328,13 @@ msgid ""
 "\t\t\t\t\t\t\t\t<br /><br />\n"
 "\t\t\t\t\t\t\t\t¿Crees que habrías picado?\n"
 "\t\t\t\t\t\t\t\t"
-msgstr ""
+msgstr "it means that <mark>you could have fallen prey to a phishing attack</mark> from an attacker with worse intentions than ours. Organized by the Computer Service of the University of Deusto, this is nothing more than a <mark>harmless test</mark> whose aim is to evaluate the <mark>student community</mark> as a possible vector of attack on the university's systems (Alud, Gaude, MyApps and other platforms).\n In other words, if you are reading this, that means that <mark>you have clicked on the link of an email</mark> that, at first, <mark>should have raised certain suspicions</mark>. Right now, you could be seeing an exact replica of Alud, Gaude or any other university platform copied by someone to, for example, <mark>get your login credentials</mark>.\n Do you think you would have fallen prey to it?\n"
+
 
 #: appSeguWeb/templates/appSeguWeb/index.html:53
 #: appSeguWeb/templates/appSeguWeb/phishing.html:9
 msgid "¿Qué es un ataque de phishing?"
-msgstr ""
+msgstr "What is a phishing attack?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:55
 msgid ""
@@ -342,40 +343,47 @@ msgid ""
 "diste demasiada \n"
 "\t\t\t\t\t\t\t\timportancia.\n"
 "\t\t\t\t\t\t\t\t"
-msgstr ""
+msgstr "It is one of the most common attacks focused on the theft of credentials, accounts ... It must have happened to you more than once and maybe you did not give it too much importance."
+
+
+msgid ""
+
+msgstr "
+What exactly is this experiment about?\n
+"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:70
 msgid ""
 "Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué "
 "función tiene y su filosofía..."
-msgstr ""
+msgstr "Click here to find out more about this initiative: where it comes from, what it does and its philosophy.\n"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:80
 #: appSeguWeb/templates/appSeguWeb/otros-correos.html:9
 msgid "¿Qué otros correos hemos utilizado?"
-msgstr ""
+msgstr "What other emails have we used?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:82
 msgid ""
 "Echa un vistazo a los correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
-msgstr ""
+msgstr "Take a look at the fake emails we used for this experiment. Which ones do you think you would have taken as real?\n"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:94
 msgid "Ya que estás aquí..."
-msgstr ""
+msgstr "Since you're here..."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:95
 msgid "¿Quieres ver memes?"
-msgstr ""
+msgstr "Do you want to see memes?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:97
 msgid "Ver memes"
-msgstr ""
+msgstr "See memes"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:106
 msgid "Antes de ir a compartir esto, ¡ESPERA!"
-msgstr ""
+msgstr "Before sharing any of this, WAIT!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:108
 msgid ""
@@ -397,17 +405,21 @@ msgid ""
 "\t\t\t\t\t\t\t\t<br /><br />\n"
 "\t\t\t\t\t\t\t\t¡Gracias!\n"
 "\t\t\t\t\t\t\t\t"
-msgstr ""
+msgstr "As we have explained to you, our intention with this experiment is to raise awareness. So, the more people come across this page unexpectedly after clicking on your email, the more important the effect it will have.\n"
+"Therefore, we ask you to, please, before sharing this page, wait until XXXX (MONTH DAY), the day on which we will publish the results of this campaign on our social networks.\n"
+"As an endnote, because we know that everyone likes good memes, we leave you the ones that we have created for this campaign and that you could have seen in the header of the page, if only Vegeta's smile had not proven to be the perfect hook.\n"
+"Thanks!\n"
+
 
 #: appSeguWeb/templates/appSeguWeb/memes.html:43
 msgid "¿Has aprendido?"
-msgstr ""
+msgstr "Have you learned?\n"
 
 #: appSeguWeb/templates/appSeguWeb/otros-correos.html:10
 msgid ""
 "Echa un vistazo al resto de correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
-msgstr ""
+msgstr "Take a look at the fake emails we used for this experiment. Which ones do you think you would have taken as real?"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:10
 msgid ""
@@ -418,11 +430,12 @@ msgid ""
 "demasiada <br />\n"
 "\t\t\timportancia.\n"
 "\t\t\t"
-msgstr ""
+msgstr "It is one of the most common attacks around the theft of credentials, accounts ... It must have happened to you more than once and you did not give it too much importance.\n"
+
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:23
 msgid "Phishing"
-msgstr ""
+msgstr "Phishing"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:24
 msgid ""
@@ -439,7 +452,7 @@ msgid ""
 "la \n"
 "\t\t\t\t\t\tuniversidad para conseguir tus credenciales.\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "By definition, a phishing attack consists of acquiring valuable information about a subject pretending to be someone you trust. In this case, we have pretended to be the UD IT Service asking you to review your account and, had it been an attacker with nefarious intentions, we would have replicated one of the university's pages to get your credentials.\n"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:33
 msgid ""
@@ -458,7 +471,7 @@ msgid ""
 "práctica para \n"
 "\t\t\t\t\t\tun correo empresarial futuro o similares.\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "If you notice, the email address used to send the message is not one of those normally used by the university. We are not saying that we should keep in mind at all times what email addresses the university uses for all purposes, but are simply having at hand a white list (<a href = \"https://www.lifewire.com/how-to-whitelist-a -sender-or-domain-in-gmail-1172106 \"target =\" _ blank \"> whitelisting </a>) of email addresses can be a good practice for future business email or similar.\n"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:45
 msgid ""
@@ -473,11 +486,11 @@ msgid ""
 "@desuto.es, \n"
 "\t\t\t\t\t\to @deusta.es?\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "In the same way that we have used that domain (provided by Servicio Informático UD), you can buy domains similar enough to go completely unnoticed. Do you think you would realize it the first time if, all of a sudden, emails from @ desuto.es or @ deusta.es start to arrive?\n"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:53
 msgid "Multitud de medios"
-msgstr ""
+msgstr "Multiple Media"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:54
 msgid ""
@@ -488,7 +501,7 @@ msgid ""
 "phishing), \n"
 "\t\t\t\t\t\tvishing (voice phishing)...\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "There are several types of phishing: spear phishing (when trying to attack someone in particular, a CEO, for example), smishing (SMS phishing), vishing (voice phishing)."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:60
 msgid ""
@@ -500,27 +513,27 @@ msgid ""
 "medios de \n"
 "\t\t\t\t\t\tcomunicación:\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "As such, phishing attacks are not limited to just corporate or official emails. This identity theft of trusted entities or persons can be carried out through different communication methods:"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:68
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:69
 msgid "Llamadas de teléfono"
-msgstr ""
+msgstr "Phone calls"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:70
 msgid "Cartas por correo"
-msgstr ""
+msgstr "Letters by mail"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:71
 msgid "Encuestas por la calle"
-msgstr ""
+msgstr "Surveys on the street"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:72
 msgid "Páginas web falsas (idénticas a las originales)"
-msgstr ""
+msgstr "Fake web pages (identical to the originals)"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:77
 msgid ""
@@ -533,7 +546,7 @@ msgid ""
 "tipo de \n"
 "\t\t\t\t\t\tinformación confidencial.\n"
 "\t\t\t\t\t\t"
-msgstr ""
+msgstr "Have you ever received this type of message on the phone? Are you tired of them reaching you? Now, at least, you know how to call these types of messages in which, at some point, they will ask you for some type of confidential information."
 
 #: seguWeb/settings.py:129
 msgid "English"
