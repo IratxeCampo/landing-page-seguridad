@@ -17,3 +17,8 @@
 		background-image: url("images/overlay.png"), url("../images/memes/veyeta.jpg");
 		background-attachment: scroll,						fixed;
 	}
+
+	#logodeusto{
+		height: 8em; 
+		width: 8em;
+	}
