@@ -214,21 +214,22 @@ msgid ""
 "campaña en redes sociales.\n"
 msgstr ""
 "Eskerrak eman nahi dizkiogu aparteko laguntzaile bati: Informazioaren Segurtasuneko irakasle Iker Pastor Lópezen laguntza eskuzabal eta zuhurrari esker, eragozpenak zeintzuk izan zitezkeen adierazi zigun eta proiektu hau berau Informatika Zerbitzuarekin batera koordinatuta egitea proposatu zigun, baita Lorena Fernández Álvarezekin (DUko Identitate Digitaleko zuzendaria) ere, ondoren gizarte sareetako kanpainarako.\n"
+
 #: appSeguWeb/templates/appSeguWeb/index.html:10
 msgid "¡Te hemos pillado!"
 msgstr "Pilatu zaituztegu!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:11
 msgid "NoDeberiasVerEsto"
-msgstr ""
+msgstr "Ez zenuke hemen egon behar, phishing eraso baten biktima izan zara!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:13
 msgid "¿Qué es esto?"
-msgstr ""
+msgstr "Zer da hau?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:24
 msgid "Si estás en esta página..."
-msgstr ""
+msgstr "Webgune honetan bazaude..."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:25
 msgid ""
@@ -246,11 +247,13 @@ msgid ""
 "ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark><br /"
 "><br />¿Crees que habrías picado?"
 msgstr ""
+"...esan nahi du <mark>phishing eraso baten menpe egon zintezkeela</mark>, gureak baino asmo okerragoak dituen erasotzaile baten atzaparretan. Deustuko Unibertsitateko Informatika Zerbitzuak antolatu duen hau <mark>kalterik gabeko froga</mark> bat baino ez da izan. Gure helburua <mark>ikasleak eraso-bektore gisa ebaluatzea</mark> baino ez da izan unibertsitateko sistemen (Alud, Gaude, MyApps eta beste plataforma batzuk...) aurkako eraso bat gertatzen den kasurako.<br /><br />"
+"Beste era batera esanda, hau irakurtzen ari bazara, <mark>mezu elektronikoaren estekan sakatu duzula</mark> esan nahi du, nahiz eta halakoek <mark>hasieratik susmo txarra sortu beharko lizuketen</mark>. Orain Alud, Gaude edo unibertsitateko beste plataforma batzuen erreplika zehatz bat ikusten ari zintezke, norbaitek kopiatua zure <mark>kredentzialak lapurtzeko asmoz</mark>. Engainatu egingo zintuzketela uste duzu? Zer da phishing erasoa? Kredentzialen lapurretan oso ohikoa den eraso bat da. Ziur behin baino gehiagotan gertatu zaizula, baina inoiz ez diozu garrantzi gehiegirik eman.<br /><br />"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:37
 #: appSeguWeb/templates/appSeguWeb/phishing.html:9
 msgid "¿Qué es un ataque de phishing?"
-msgstr ""
+msgstr "Zer da phishing erasoa?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:38
 msgid ""
@@ -258,39 +261,42 @@ msgid ""
 "cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada "
 "importancia."
 msgstr ""
+"Kredentzialen lapurretan oso ohikoa den eraso bat da. Ziur behin baino gehiagotan gertatu zaizula, baina inoiz ez diozu garrantzi gehiegirik eman."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:50
 msgid ""
 "Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué "
 "función tiene y su filosofía..."
 msgstr ""
+"Egin klik hemen ekimen honen inguruko informazio gehiago jakiteko: nondik datorren, zer funtzio duen eta zer filosofia duen, besteak beste."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:60
 #: appSeguWeb/templates/appSeguWeb/otros-correos.html:9
 msgid "¿Qué otros correos hemos utilizado?"
-msgstr ""
+msgstr "Zer beste mezu elektroniko bidali dugula uste duzu?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:62
 msgid ""
 "Echa un vistazo a los correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
 msgstr ""
+"Begiratu ezazu esperimentu honetarako zer mezu faltsu erabili ditugun. Zeinek uste duzu egingo lizukeela iruzur?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:74
 msgid "Ya que estás aquí..."
-msgstr ""
+msgstr "Hemen zaudenez,…"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:75
 msgid "¿Quieres ver memes?"
-msgstr ""
+msgstr "Memeak ikusi nahi dituzu?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:77
 msgid "Ver memes"
-msgstr ""
+msgstr "Memeak ikusi"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:86
 msgid "Antes de ir a compartir esto, ¡ESPERA!"
-msgstr ""
+msgstr "Hau partekatu baino lehen, ITXARON!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:88
 msgid ""
@@ -305,16 +311,18 @@ msgid ""
 "visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese "
 "demostrado serel gancho perfecto.<br /><br />¡Gracias!"
 msgstr ""
+"Azaldu dizugun bezala, <mark>esperimentu honekin kontzientziatzea da gure asmoa</mark>. Horregatik, zenbat eta jende gehiago egon ustekabean webgune honetan, orduan eta eragin arrakastatsuagoa izango du mezu honek.<br /><br />Hori dela eta, mesedez eskatzen dizugu, <mark>webgune hau partekatu baino lehen, itxaroteko martxoaren XXra arte</mark>, orduan argitaratuko baititugu gure sare sozialetan kanpaina honetan bildutako emaitzak.<br /><br />Azkenik, denok meme onak ikustea gustuko dugunez, hemen uzten dizkizugu kanpaina honetarako sortu ditugunak eta orrialdearen goiburuan agian ikusiko zenituenak, Vegetaren irribarre maltzurrak tenk egiteko amurik onena zela erakutsi ez balu.<br /><br />Eskerrik asko!"
 
 #: appSeguWeb/templates/appSeguWeb/memes.html:43
 msgid "¿Has aprendido?"
-msgstr ""
+msgstr "Ikasi duzu?"
 
 #: appSeguWeb/templates/appSeguWeb/otros-correos.html:10
 msgid ""
 "Echa un vistazo al resto de correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
 msgstr ""
+"Begiratu ezazu esperimentu honetarako zer mezu faltsu erabili ditugun. Zeinek uste duzu egingo lizukeela iruzur?"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:10
 msgid ""
@@ -322,10 +330,11 @@ msgid ""
 ">cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada "
 "<br />importancia."
 msgstr ""
+"Kredentzialen lapurretan oso ohikoa den eraso bat da.<br /> Ziur behin baino gehiagotan gertatu zaizula, baina inoiz ez diozu <br />garrantzi gehiegirik eman."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:19
 msgid "Phishing"
-msgstr ""
+msgstr "Phishing"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:20
 msgid ""
@@ -336,6 +345,7 @@ msgid ""
 "con nefarias intenciones, habríamos replicado una de las páginas de la "
 "universidad para conseguir tus credenciales."
 msgstr ""
+"Definizioz, phishing erasoa pertsona baten inguruko informazio baliotsua eskuratzea da, konfiantzazkoa den beste pertsona batek bidaltzen diola mezua sinestaraziz. Oraingo honetan, DUko Informatika Zerbitzua garela sinestarazi nahi izan dugu, zure kontua berrikusteko eskatzeko, eta, erasotzaile maltzurra izanez gero, unibertsitateko webgune bat garela simulatuko genukeen zure erabiltzaile izena eta pasahitza lortzeko."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:22
 msgid ""
@@ -347,6 +357,7 @@ msgid ""
 "gmail-1172106\" target=\"_blank\">whitelisting</a>) de direcciones de correo "
 "puede ser una buena práctica para un correo empresarial futuro o similares."
 msgstr ""
+"Ohartzen bazara, mezua bidaltzeko erabilitako helbidea ez da unibertsitateak normalean erabiltzen duen bat. Ez dugu esaten kontuan izan beharko genituzkeela unibertsitateak erabiltzen dituen helbide guztiak, baizik eta helbideen zerrenda zuri bat izatea (<a href=\"https://www.lifewire.com/how-to-whitelist-a-sender-or-domain-in-gmail-1172106\" target=\"_blank\">whitelisting</a>) jardunbide egokia izango litzatekeela etorkizuneko negozioko helbidea edo antzekoa izateko."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:26
 msgid ""
@@ -356,10 +367,11 @@ msgid ""
 "la primera si, de repente, te empiezan a llegar correos de @desuto.es, o "
 "@deusta.es?"
 msgstr ""
+"Guk domeinu hori erabili dugun modu berean (DUko Informatika Zerbitzuak emandakoa), nahiko antzekoak diren domeinuak eros daitezke, inor konturatu gabe erabiltzeko modukoak izango liratekeenak. Lehenengo momentuan uste duzu konturatuko zinatekeela bat batean @desuto.es edota @deusta.es daramatzaten mezuak jasotzen hasiko bazina?"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:28
 msgid "Multitud de medios"
-msgstr ""
+msgstr "Metodo ugari"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:29
 msgid ""
@@ -367,6 +379,7 @@ msgid ""
 "alguien en concreto, un CEO, por ejemplo), smishing (SMS phishing), vishing "
 "(voice phishing)..."
 msgstr ""
+"Hainbat phishing mota daude: spear phishing (norbait bereziki erasotzen saiatzen dena, zuzendari nagusi bat, adibidez), smishing (SMS phishing), vishing (voice phishing), etab."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:31
 msgid ""
@@ -374,26 +387,27 @@ msgid ""
 "u oficiales. Esta suplantación de identidad de entidades o personas de "
 "confianza se puede realizar por medio de diferentes medios de comunicación:"
 msgstr ""
+"Phishing erasoak ez dira enpresa mezuetara edo mezu ofizialetara mugatzen. Entitateen edo konfiantzazko pertsonen identitate lapurreta komunikazio metodo askorekin egin daiteke:"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:34
 msgid "SMS"
-msgstr ""
+msgstr "SMSak"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:35
 msgid "Llamadas de teléfono"
-msgstr ""
+msgstr "Telefono deiak"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:36
 msgid "Cartas por correo"
-msgstr ""
+msgstr "Posta gutunak"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:37
 msgid "Encuestas por la calle"
-msgstr ""
+msgstr "Kaleko inkestak"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:38
 msgid "Páginas web falsas (idénticas a las originales)"
-msgstr ""
+msgstr "Web orri faltsuak (jatorrizkoen berdinak)"
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:43
 msgid ""
@@ -403,18 +417,19 @@ msgid ""
 "mensajes en los que, en algún momento, te vayan a pedir algún tipo de "
 "información confidencial."
 msgstr ""
+"\nInoiz jaso duzu mota honako mezurik mugikorrean? Nekatuta zaude halakoak jasotzeaz? Orain, behintzat, badakizu zer izen eman mezu horiei, informazio konfidentziala eskatuko lizuketenei."
 
 #: seguWeb/settings.py:129
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: seguWeb/settings.py:130
 msgid "Español"
-msgstr ""
+msgstr "Español"
 
 #: seguWeb/settings.py:131
 msgid "Euskera"
-msgstr ""
+msgstr "Euskera"
 
 #~ msgid "QEsEsto"
 #~ msgstr "Hau zer da?"
