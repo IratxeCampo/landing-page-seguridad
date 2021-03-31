@@ -1,0 +1,34 @@
+SEGURIDAD 
+---------
+Los idiomas no funcionan en deustombi. (EN/EU)
+
+Apartado "Qué otros correos hemos utilizado" ==> analizar el correo que hemos usado
+
+Traduccion literal correo euskera
+
+Correo cambios
+|
+|=> cambiar direccion de calle
+|
+|=> desordenar el correo (que no este ordenadico chulo en tablica)
+|
+|=> resolucion de las imagenes
+|
+|=> tildes de funada UTF-8
+|
+|=> faltas de ortografia
+|
+|=> moar...??
+
+
+MÓVIL
+-----
+Cambiar logo deusto para que case en móvil
+
+de qué va este experimento: cambiar fotos diagrama mail
+
+
+TRADUCCIÓN
+----------
+rellenar los .po
+

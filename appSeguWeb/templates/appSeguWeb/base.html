@@ -39,13 +39,18 @@
 				<p class="navbar-brand" ><img class="resize" style="max-width: 20%; max-height: 20%;" src="{% static 'appSeguWeb/images/deusto-logo.png' %}"></p>
 			</div>
 			<nav id="nav">
-				
 				<ul style="float: right;">
 					<li>
-                        <button onclick="changeLanguage(this)" name="en" class="connection-item">EN</button>
-                        <button onclick="changeLanguage(this)" name="es" class="connection-item">ES</button>
-                        <button onclick="changeLanguage(this)" name="eu" class="connection-item">EU</button>
-                        <a href="{% url 'index' %}">Home</a>
+						<a onclick="changeLanguage(this)" name="en" class="connection-item">EN</a>
+					</li>
+					<li>
+						<a onclick="changeLanguage(this)" name="es" class="connection-item">ES</a>
+					</li>
+					<li>
+						<a onclick="changeLanguage(this)" name="eu" class="connection-item">EU</a>
+					</li>
+					<li>
+						<a href="{% url 'index' %}"><strong>Home</strong></a>
 					</li>
 				<ul>
 			</nav>
