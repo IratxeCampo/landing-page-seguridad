@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: appSeguWeb/templates/appSeguWeb/index.html:73
-#: appSeguWeb/templates/appSeguWeb/phishing.html:8
+#: .\appSeguWeb\templates\appSeguWeb\index.html:73
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 17:27+0000\n"
+"POT-Creation-Date: 2021-03-31 12:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,40 +19,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: appSeguWeb/templates/appSeguWeb/404.html:26
+#: .\appSeguWeb\templates\appSeguWeb\404.html:27
 msgid "Vaya..."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/404.html:27
+#: .\appSeguWeb\templates\appSeguWeb\404.html:28
 msgid "Parece que no existe esa página..."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/404.html:28
+#: .\appSeguWeb\templates\appSeguWeb\404.html:29
 msgid "Vuelve a la "
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/404.html:28
+#: .\appSeguWeb\templates\appSeguWeb\404.html:29
 msgid "página principal"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/base.html:63
-msgid "cortesía"
+#: .\appSeguWeb\templates\appSeguWeb\base.html:68
+msgid ""
+"Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea, \n"
+"\t\t\t\t\tIker Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez "
+"y \n"
+"\t\t\t\t\ttodo el equipo de Servicio Informático UD "
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:8
-#: appSeguWeb/templates/appSeguWeb/index.html:67
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:9
+#: .\appSeguWeb\templates\appSeguWeb\index.html:68
 msgid "¿De qué va este experimento exactamente?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:9
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:10
 msgid "Te explicamos los orígenes del proyecto, su función y su filosofía."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:16
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:17
 msgid "Motivación del proyecto"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:17
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:18
 msgid ""
 "\n"
 "\t\t\t\t\tLa motivación principal de este proyecto es la de concienciar a "
@@ -73,7 +76,7 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:28
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:29
 msgid ""
 "\n"
 "\t\t\t\t\tAnteriormente, ya se habían realizado estudios de este tipo "
@@ -86,11 +89,11 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:35
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:36
 msgid "Función del proyecto"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:36
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:37
 msgid ""
 "\n"
 "\t\t\t\t\tEl proyecto busca ser un detonante inicial para que los "
@@ -111,7 +114,7 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:47
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:48
 msgid ""
 "\n"
 "\t\t\t\t\tEn resumen, este proyecto tiene la labor de sensibilizar a la "
@@ -122,11 +125,11 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:53
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:54
 msgid "¿Qué se ha hecho exactamente?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:54
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:55
 msgid ""
 "\n"
 "\t\t\t\t\tEl proyecto constaba de tres partes fundamentales: (1) un dominio "
@@ -146,7 +149,7 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:66
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:67
 msgid ""
 "\n"
 "\t\t\t\t\tLos distintos tipos de correos enviados redirigen todos a esta "
@@ -158,11 +161,11 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:72
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:73
 msgid "¿De dónde ha salido este proyecto?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:73
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:74
 msgid ""
 "\n"
 "\t\t\t\t\tOriginalmente, todo esto iba a ser un proyecto nuestro para la "
@@ -182,7 +185,7 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:83
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:84
 msgid ""
 "\n"
 "\t\t\t\t\tEl proyecto consistía en coger uno de los censos que el "
@@ -205,7 +208,7 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:95
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:96
 msgid ""
 "\n"
 "\t\t\t\t\tEsas direcciones de correo ficticias se modificarían para "
@@ -223,14 +226,14 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:106
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:107
 msgid ""
 "\n"
 "\t\t\t\t\tEsta primera versión del proyecto tiene varios inconvenientes:\n"
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:111
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:112
 msgid ""
 "Al estar organizando esto desde \"fuera\" de la universidad, por nuestra "
 "cuenta, \n"
@@ -238,7 +241,7 @@ msgid ""
 "ataque de este tipo."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:114
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:115
 msgid ""
 "Si lo hubiéramos organizado por nuestra cuenta, aquellos a los que les \n"
 "\t\t\t\t\t\tllegara el correo no tendrían ningún tipo de confianza en "
@@ -254,7 +257,7 @@ msgid ""
 "\t\t\t\t\t\trobado mis datos???\"."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:122
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:123
 msgid ""
 "La propia tarea de preparar un servidor de hosteo para la página web y un "
 "servidor \n"
@@ -265,7 +268,7 @@ msgid ""
 "\t\t\t\t\t\tpor nuestra cuenta para que funcionase todo a la perfección."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:129
+#: .\appSeguWeb\templates\appSeguWeb\experimento.html:130
 msgid ""
 "\n"
 "\t\t\t\t\tGracias a la inestimable ayuda de nuestro profesor de Seguridad de "
@@ -280,23 +283,23 @@ msgid ""
 "\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:9
+#: .\appSeguWeb\templates\appSeguWeb\index.html:10
 msgid "¡Te hemos pillado!"
 msgstr "We got you!"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:10
+#: .\appSeguWeb\templates\appSeguWeb\index.html:11
 msgid "NoDeberiasVerEsto"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:12
+#: .\appSeguWeb\templates\appSeguWeb\index.html:13
 msgid "¿Qué es esto?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:23
+#: .\appSeguWeb\templates\appSeguWeb\index.html:24
 msgid "Si estás en esta página..."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:24
+#: .\appSeguWeb\templates\appSeguWeb\index.html:25
 msgid ""
 "\n"
 "\t\t\t\t\t\t\t\t\n"
@@ -327,11 +330,12 @@ msgid ""
 "\t\t\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:52
+#: .\appSeguWeb\templates\appSeguWeb\index.html:53
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:9
 msgid "¿Qué es un ataque de phishing?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:54
+#: .\appSeguWeb\templates\appSeguWeb\index.html:55
 msgid ""
 " Es uno de los ataques más comunes en torno a robo de credenciales, \n"
 "\t\t\t\t\t\t\t\tcuentas... Seguro que te ha pasado más de una vez y no le "
@@ -340,28 +344,40 @@ msgid ""
 "\t\t\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:80
-#: appSeguWeb/templates/appSeguWeb/otros-correos.html:8
+#: .\appSeguWeb\templates\appSeguWeb\index.html:70
+msgid ""
+"Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué "
+"función tiene y su filosofía..."
+msgstr ""
+
+#: .\appSeguWeb\templates\appSeguWeb\index.html:80
+#: .\appSeguWeb\templates\appSeguWeb\otros-correos.html:9
 msgid "¿Qué otros correos hemos utilizado?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:95
+#: .\appSeguWeb\templates\appSeguWeb\index.html:82
+msgid ""
+"Echa un vistazo a los correos falsos que hemos utilizado para este "
+"experimento. ¿En cuáles crees que habrías caído?"
+msgstr ""
+
+#: .\appSeguWeb\templates\appSeguWeb\index.html:94
 msgid "Ya que estás aquí..."
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:96
+#: .\appSeguWeb\templates\appSeguWeb\index.html:95
 msgid "¿Quieres ver memes?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:98
+#: .\appSeguWeb\templates\appSeguWeb\index.html:97
 msgid "Ver memes"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:107
+#: .\appSeguWeb\templates\appSeguWeb\index.html:106
 msgid "Antes de ir a compartir esto, ¡ESPERA!"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/index.html:109
+#: .\appSeguWeb\templates\appSeguWeb\index.html:108
 msgid ""
 " Como te hemos explicado, <mark>nuestra intención con este experimento es "
 "concienciar</mark>. Por eso, cuanta más gente se\n"
@@ -383,21 +399,32 @@ msgid ""
 "\t\t\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/memes.html:42
+#: .\appSeguWeb\templates\appSeguWeb\memes.html:43
 msgid "¿Has aprendido?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/otros-correos.html:9
+#: .\appSeguWeb\templates\appSeguWeb\otros-correos.html:10
 msgid ""
 "Echa un vistazo al resto de correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:21
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:10
+msgid ""
+"\n"
+"\t\t\tEs uno de los ataques más comunes en torno a robo de credenciales, "
+"<br />\n"
+"\t\t\tcuentas... Seguro que te ha pasado más de una vez y no le diste "
+"demasiada <br />\n"
+"\t\t\timportancia.\n"
+"\t\t\t"
+msgstr ""
+
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:23
 msgid "Phishing"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:22
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:24
 msgid ""
 "\n"
 "\t\t\t\t\t\tPor definición, un ataque de phishing consiste en la adquisición "
@@ -414,7 +441,7 @@ msgid ""
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:31
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:33
 msgid ""
 "\n"
 "\t\t\t\t\t\tSi te fijas, la dirección de correo utilizada para enviar el "
@@ -433,7 +460,7 @@ msgid ""
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:43
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:45
 msgid ""
 "\n"
 "\t\t\t\t\t\tDe la misma manera que nosotros hemos utilizado ese dominio "
@@ -448,43 +475,54 @@ msgid ""
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:51
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:53
 msgid "Multitud de medios"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:52
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:54
+msgid ""
+"\n"
+"\t\t\t\t\t\tExisten varios tipos de phishing: spear phishing (cuando se "
+"intenta atacar \n"
+"\t\t\t\t\t\ta alguien en concreto, un CEO, por ejemplo), smishing (SMS "
+"phishing), \n"
+"\t\t\t\t\t\tvishing (voice phishing)...\n"
+"\t\t\t\t\t\t"
+msgstr ""
+
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:60
 msgid ""
 "\n"
 "\t\t\t\t\t\tComo tal, los ataques de phishing no se limitan solo a correos \n"
 "\t\t\t\t\t\tempresariales u oficiales. Esta suplantación de identidad de "
 "entidades o \n"
 "\t\t\t\t\t\tpersonas de confianza se puede realizar por medio de diferentes "
-"métodos de \n"
+"medios de \n"
 "\t\t\t\t\t\tcomunicación:\n"
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:60
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:68
 msgid "SMS"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:61
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:69
 msgid "Llamadas de teléfono"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:62
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:70
 msgid "Cartas por correo"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:63
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:71
 msgid "Encuestas por la calle"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:64
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:72
 msgid "Páginas web falsas (idénticas a las originales)"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:69
+#: .\appSeguWeb\templates\appSeguWeb\phishing.html:77
 msgid ""
 "\n"
 "\t\t\t\t\t\t¿Alguna vez has recibido este tipo de mensaje al teléfono? "
@@ -497,25 +535,14 @@ msgid ""
 "\t\t\t\t\t\t"
 msgstr ""
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:76
-msgid ""
-"\n"
-"\t\t\t\t\t\tExisten varios tipos de phishing: spear phishing (cuando se "
-"intenta atacar \n"
-"\t\t\t\t\t\ta alguien en concreto, un CEO, por ejemplo), smishing (SMS "
-"phishing), \n"
-"\t\t\t\t\t\tvishing (voice phishing)...\n"
-"\t\t\t\t\t\t"
-msgstr ""
-
-#: seguWeb/settings.py:128
+#: .\seguWeb\settings.py:128
 msgid "English"
 msgstr ""
 
-#: seguWeb/settings.py:129
+#: .\seguWeb\settings.py:129
 msgid "Español"
 msgstr ""
 
-#: seguWeb/settings.py:130
+#: .\seguWeb\settings.py:130
 msgid "Euskera"
 msgstr ""
