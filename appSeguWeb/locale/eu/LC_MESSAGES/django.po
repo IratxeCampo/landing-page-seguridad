@@ -45,15 +45,15 @@ msgstr ""
 #: appSeguWeb/templates/appSeguWeb/experimento.html:9
 #: appSeguWeb/templates/appSeguWeb/index.html:48
 msgid "¿De qué va este experimento exactamente?"
-msgstr ""
+msgstr "Zertan datza zehazki esperimentu hau?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:10
 msgid "Te explicamos los orígenes del proyecto, su función y su filosofía."
-msgstr ""
+msgstr "Proiektuaren jatorria, funtzioa eta filosofia azalduko dizkizugu."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:17
 msgid "Motivación del proyecto"
-msgstr ""
+msgstr "Proiektuaren motibazioa"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:18
 msgid ""
@@ -66,6 +66,7 @@ msgid ""
 "sospechosos es un buen baremo para estimar el nivel de alerta general del "
 "cuerpo estudiantil a la hora de ataques de phishing.\n"
 msgstr ""
+"Proiektu honen motibazio nagusia ikasleak kontzientziatzea da, segurtasun informatikoari eta komunikazioen kudeaketari dagokionez. Ikasleen eta Unibertsitateko zenbait erakundetatik datozen mezu elektronikoetan oinarrizko konfiantza maila sortu denez, DUko Informatika Zerbitzua erasotzaile izan daitekeen baten lekuan jartzea baremo ona da ikasleen taldearen alerta maila zein den ikusteko phishing-eko erasoen aurrean.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:21
 msgid ""
@@ -74,10 +75,11 @@ msgid ""
 "antes se había realizado de cara a los estudiantes de grado, master y "
 "doctorado.\n"
 msgstr ""
+"Aurretik ere egin dira antzeko ikerketak unibertsitateko irakasle eta ikertzaileei bideratuta soilik, baina  inoiz ez da egin gradu, master eta doktoregoko ikasleei zuzenduta.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:24
 msgid "Función del proyecto"
-msgstr ""
+msgstr "Proiektuaren funtzioa"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:25
 msgid ""
@@ -90,6 +92,7 @@ msgid ""
 "unas charlas informativas acerca de diferentes buenas prácticas e "
 "información general.\n"
 msgstr ""
+"Proiektu honen helburua da ikasleei segurtasun informatikoari buruz gogoeta eragitea, ikasleak mentalizatu daitezela mezu elektronikoetan eta antzekoetan mezu susmagarriak izan daitezkeenen seinaleak antzemateko. Esperimentuaren emaitzak behatu eta ikusi nahi da ea ikasleak unibertsitateko sistemen aurkako eraso-bektorea diren. Eta, hala izanez gero, informazio hitzaldiak eskaintzea proposatuko litzateke, jardunbide egokien eta informazio orokorraren inguruan.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:28
 msgid ""
@@ -97,10 +100,11 @@ msgid ""
 "estudiantil acerca de la importancia de la seguridad digital y realizar un "
 "estudio de la situación actual.\n"
 msgstr ""
+"Laburbilduz, proiektu honen asmoa da ikasleen kolektiboa sentsibilizatzea segurtasun informatikoaren garrantziaz eta egungo egoera aztertzea.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:31
 msgid "¿Qué se ha hecho exactamente?"
-msgstr ""
+msgstr "Zer egin da zehazki?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:32
 msgid ""
@@ -112,6 +116,7 @@ msgid ""
 "distintos grupos de correos de dicha lista con diferentes niveles de "
 "sofisticación (unos correos más currados que otros a fin de cuentas).\n"
 msgstr ""
+"Proiektuak hiru atal nagusi zituen: (1) mezuak bidaltzeko eta orain ikusten ari zaren webgunearen ostalari izateko domeinua izatea, (2) esperimentua egiteko unibertsitateko ikasleen posta elektronikoko helbideen zerrenda anonimizatu bat izatea (zerrenda honetan dauden helbideak anonimoak dira, hortaz, ezin dugu jakin zehazki nor sartu den webgunean) eta (3) mezu batzuk izatea, zerrenda horretako helbide talde desberdinei sofistikazio maila desberdinarekin bidaltzeko (hau da, batzuk beste batzuk baino landuagoak daude).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:37
 msgid ""
@@ -119,10 +124,11 @@ msgid ""
 "landing para poder recoger cuántas visitas únicas obtenemos y así poder "
 "publicar datos estadísticos al respecto una vez terminada la campaña.\n"
 msgstr ""
+"Mota horietako mezuek landing-eko webgune honetara bidaltzen dituzte ikasleak, guztizko bisita kopurua zein den jakiteko eta horrela datu estatistikoak argitaratzeko, kanpaina amaitzen denean.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:40
 msgid "¿De dónde ha salido este proyecto?"
-msgstr ""
+msgstr "Nondik atera da proiektu hau?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:41
 msgid ""
@@ -135,6 +141,7 @@ msgid ""
 "Universidad de Deusto con un nivel información y conocimiento mínimos acerca "
 "de las direcciones de correo de Deusto.\n"
 msgstr ""
+"Hasiera batean, hau dena irakasgai bateko proiektu baterako ideia baino ez zen, Informatikako Ingeniaritzako Informazioaren Segurtasuna irakasgairako, Iker Pastor López irakasleak ematen duen irakasgairako, hain zuzen, funtsezko partaidea zelarik proiektu hau gauzatzeko. Bera gabe ezin izango genukeen lana burutu. Hasierako ideia hau zen: erasotzaile baten ikuspuntutik DUko sistemetan sartzea eta intrusion horren bideragarritasuna aztertzea, Deustuko helbideen inguruko gutxieneko informazio maila eta ezagutzak izanda.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:44
 msgid ""
@@ -149,6 +156,7 @@ msgid ""
 "pertenecientes a integrantes de la universidad (profesores, estudiantes y "
 "otros).\n"
 msgstr ""
+"Proiektua Bilboko Udalaren <a href=\"https://liburutegibiltegi.bizkaia.eus/handle/20.500.11938/80403\" target=\"_blank\"> errolda hartzea zen, Bilbon ohikoak diren abizenak lortzeko (Deustuko ikasle gehienak hangoak direla suposatzen delako…). Hurrengoa zen horrekin bi zerrenda egitea euskarazko eta gaztelaniazko izenen top 10a hartuta eta izen abizenak konbinatzea. Horrela, alegiazko helbideak lortuko genituzke, Deustuko sistemetan existitu daitezkeenak edo ez daitezkeenak eta unibertsitateko kideenak izan daitezkeenak (irakasleenak, ikasleenak eta beste talde batzuetakoenak).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:47
 msgid ""
@@ -160,10 +168,11 @@ msgid ""
 "realizado este (dominio desde el cual enviar correos, generar la página web, "
 "etc.).\n"
 msgstr ""
+"Helbide horiek aldatu egingo genituzkeen formatu ezberdinak izateko (izena.abizena, izenabizena…) eta horrela aukera gehiago izango genituzkeen helbide egokiak lortzeko. Behin helbide zerrendak sortuta, esperimentuarekin jarraituko genukeen, honako hau egin dugun bezala (mezuak bidaltzeko domeinua izatea, webgunea sortzea eta abar).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:52
 msgid "Esta primera versión del proyecto tiene varios inconvenientes:"
-msgstr ""
+msgstr "Lehenengo bertsio honek eragozpen batzuk ditu:"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:55
 msgid ""
@@ -171,6 +180,7 @@ msgid ""
 "cuenta, estaríamos dañando la imagen de la universidad al realizar un ataque "
 "de este tipo."
 msgstr ""
+"Hau unibertsitatetik \"kanpo\" burutu denez, gure kabuz, unibertsitatearen irudia kaltetuko genuke eraso hau eginez gero."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:57
 msgid ""
@@ -182,6 +192,7 @@ msgid ""
 "con multitud de personas preguntando sobre \"¿¿¿Por qué me acaban de "
 "atacar??? ¿¿¿Qué está pasando??? ¿¿Han robado mis datos???\"."
 msgstr ""
+"Gure kabuz antolatu izan bagenu, mezua jasoko luketen guztiak ez lirakete gutaz fidatuko, proiektu soil bat egiten ari garen ikasle batzuk garelako. Unibertsitateko jende gehienak ezagutzen ez gaituenez, konfiantza krisia sor liteke eta unibertsitateko buruzagiek buru-hausteak izan litzakete jendeak galderak egingo lituzkeelako: \"Zergatik egin didate eraso? Zer ari da gertatzen? Nire datuak lapurtu dituzte?\"."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:59
 msgid ""
@@ -191,6 +202,7 @@ msgid ""
 "capaces de manejar por nuestra cuenta para que funcionase todo a la "
 "perfección."
 msgstr ""
+"Webgunerako ostalari izateko zerbitzaria prestatzeko lanak berak eta mezuetarako SMTP zerbitzaria izateak konplexutasun handia gehituko ziokeen proiektuari eta, agian, gure kabuz maneiatzeko gai izango ginen atal mugikor gehiegi, denak ondo funtzionatu ahal izateko."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:63
 msgid ""
@@ -201,7 +213,7 @@ msgid ""
 "Fernández Álvarez (Directora de identidad digital de UD) para la posterior "
 "campaña en redes sociales.\n"
 msgstr ""
-
+"Eskerrak eman nahi dizkiogu aparteko laguntzaile bati: Informazioaren Segurtasuneko irakasle Iker Pastor Lópezen laguntza eskuzabal eta zuhurrari esker, eragozpenak zeintzuk izan zitezkeen adierazi zigun eta proiektu hau berau Informatika Zerbitzuarekin batera koordinatuta egitea proposatu zigun, baita Lorena Fernández Álvarezekin (DUko Identitate Digitaleko zuzendaria) ere, ondoren gizarte sareetako kanpainarako.\n"
 #: appSeguWeb/templates/appSeguWeb/index.html:10
 msgid "¡Te hemos pillado!"
 msgstr "Pilatu zaituztegu!"
