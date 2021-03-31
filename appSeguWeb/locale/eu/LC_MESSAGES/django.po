@@ -156,7 +156,7 @@ msgid ""
 "pertenecientes a integrantes de la universidad (profesores, estudiantes y "
 "otros).\n"
 msgstr ""
-"Proiektua Bilboko Udalaren <a href=\"https://liburutegibiltegi.bizkaia.eus/handle/20.500.11938/80403\" target=\"_blank\"> errolda hartzea zen, Bilbon ohikoak diren abizenak lortzeko (Deustuko ikasle gehienak hangoak direla suposatzen delako…). Hurrengoa zen horrekin bi zerrenda egitea euskarazko eta gaztelaniazko izenen top 10a hartuta eta izen abizenak konbinatzea. Horrela, alegiazko helbideak lortuko genituzke, Deustuko sistemetan existitu daitezkeenak edo ez daitezkeenak eta unibertsitateko kideenak izan daitezkeenak (irakasleenak, ikasleenak eta beste talde batzuetakoenak).\n"
+"Proiektua <a href=\"https://liburutegibiltegi.bizkaia.eus/handle/20.500.11938/80403\" target=\"_blank\">Bilboko Udalaren</a> errolda hartzea zen, Bilbon ohikoak diren abizenak lortzeko (Deustuko ikasle gehienak hangoak direla suposatzen delako…). Hurrengoa zen horrekin bi zerrenda egitea euskarazko eta gaztelaniazko izenen top 10a hartuta eta izen abizenak konbinatzea. Horrela, alegiazko helbideak lortuko genituzke, Deustuko sistemetan existitu daitezkeenak edo ez daitezkeenak eta unibertsitateko kideenak izan daitezkeenak (irakasleenak, ikasleenak eta beste talde batzuetakoenak).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:47
 msgid ""
