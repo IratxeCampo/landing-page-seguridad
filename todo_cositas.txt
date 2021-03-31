@@ -21,13 +21,6 @@ Correo cambios
 |=> moar...??
 
 
-MÓVIL
------
-Cambiar logo deusto para que case en móvil
-
-de qué va este experimento: cambiar fotos diagrama mail
-
-
 TRADUCCIÓN
 ----------
 rellenar los .po
