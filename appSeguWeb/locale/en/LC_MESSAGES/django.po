@@ -21,19 +21,19 @@ msgstr ""
 
 #: appSeguWeb/templates/appSeguWeb/404.html:27
 msgid "Vaya..."
-msgstr ""
+msgstr "Oh..."
 
 #: appSeguWeb/templates/appSeguWeb/404.html:28
 msgid "Parece que no existe esa página..."
-msgstr ""
+msgstr "It looks like this page doesn't exist..."
 
 #: appSeguWeb/templates/appSeguWeb/404.html:29
 msgid "Vuelve a la "
-msgstr ""
+msgstr "Go back to the "
 
 #: appSeguWeb/templates/appSeguWeb/404.html:29
 msgid "página principal"
-msgstr ""
+msgstr "main page"
 
 #: appSeguWeb/templates/appSeguWeb/base.html:68
 msgid ""
@@ -41,19 +41,22 @@ msgid ""
 "Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez y todo el equipo "
 "de Servicio Informático UD "
 msgstr ""
+"Courtesy of Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea, Iker "
+"Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez and all the "
+"UD Computer Service team "
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:9
 #: appSeguWeb/templates/appSeguWeb/index.html:48
 msgid "¿De qué va este experimento exactamente?"
-msgstr ""
+msgstr "What exactly is this experiment about?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:10
 msgid "Te explicamos los orígenes del proyecto, su función y su filosofía."
-msgstr ""
+msgstr "We explain the origin of the project, its function and its philosophy."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:17
 msgid "Motivación del proyecto"
-msgstr ""
+msgstr "Project motivation"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:18
 msgid ""
@@ -66,6 +69,13 @@ msgid ""
 "sospechosos es un buen baremo para estimar el nivel de alerta general del "
 "cuerpo estudiantil a la hora de ataques de phishing.\n"
 msgstr ""
+"The main motivation of this project is to make students aware of their "
+"current level and knowledge in regards to computer security and communications "
+"management. Given a certain base of trust that we have in emails and "
+"communications from various university entities, the impersonation of the "
+"UD Computer Service by a possible attacker who sends sufficiently suspicious "
+"emails is a good scale to estimate the general alert level of the student body "
+"to an instance of a phishing attack.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:21
 msgid ""
@@ -74,10 +84,13 @@ msgid ""
 "antes se había realizado de cara a los estudiantes de grado, master y "
 "doctorado.\n"
 msgstr ""
+"Studies of this type have already been carried out previously focused "
+"solely on university faculty and researchers, but never before had they "
+"been carried out for undergraduate, master, and doctoral students.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:24
 msgid "Función del proyecto"
-msgstr ""
+msgstr "Project role"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:25
 msgid ""
@@ -90,6 +103,14 @@ msgid ""
 "unas charlas informativas acerca de diferentes buenas prácticas e "
 "información general.\n"
 msgstr ""
+"The project seeks to be an initial trigger for students to reflect on "
+"the security of information in our environment, to educate students about "
+"different possible alarm signals in false emails and similar situations. Once "
+"the results of the experiment have been obtained, it is also intended to observe "
+"if we students are considered as a vector of attack in our university systems, "
+"therefore posing a risk for the security. If such is the case, we will offer "
+"informative talks about different good practices and general information will "
+"be proposed.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:28
 msgid ""
@@ -97,10 +118,13 @@ msgid ""
 "estudiantil acerca de la importancia de la seguridad digital y realizar un "
 "estudio de la situación actual.\n"
 msgstr ""
+"In summary, this project has the double purpose of sensitizing the student "
+"community about the importance of digital security and of carrying out a "
+"study of the current situation.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:31
 msgid "¿Qué se ha hecho exactamente?"
-msgstr ""
+msgstr "What exactly has been done?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:32
 msgid ""
@@ -112,6 +136,13 @@ msgid ""
 "distintos grupos de correos de dicha lista con diferentes niveles de "
 "sofisticación (unos correos más currados que otros a fin de cuentas).\n"
 msgstr ""
+"The project consisted of three fundamental parts: (1) a domain from which to "
+"send the emails and host the page you are viewing right now, (2) a mailing "
+"list of students to carry out the experiment itself (this mailing list is "
+"totally anonymized and at no time dowe know who visits the page) and (3) a "
+"series of emails destined for different groups of emails from said list with "
+"different levels of sophistication (some emails are more complex than "
+"others, after all).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:37
 msgid ""
@@ -119,10 +150,13 @@ msgid ""
 "landing para poder recoger cuántas visitas únicas obtenemos y así poder "
 "publicar datos estadísticos al respecto una vez terminada la campaña.\n"
 msgstr ""
+"The different types of emails that were sent are redirected to this landing "
+"page in order to be able to collect how many unique visits we obtain and "
+"thus be able to publish statistical data in this regard once the campaign is finished.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:40
 msgid "¿De dónde ha salido este proyecto?"
-msgstr ""
+msgstr "Where did this project come from?"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:41
 msgid ""
@@ -135,6 +169,13 @@ msgid ""
 "Universidad de Deusto con un nivel información y conocimiento mínimos acerca "
 "de las direcciones de correo de Deusto.\n"
 msgstr ""
+"Originally, all this was going to be our project for the Information Security "
+"subject that we have in Computer Engineering, a subject taught by Iker Pastor "
+"López, a fundamental member of this project for its realization and without "
+"whom we could not have carried out this work . The original idea consisted of "
+"evaluating, from the point of view of an attacker, the viability of an intrusion "
+"into the systems of the University of Deusto with a minimum level of information "
+"and knowledge about Deusto's email addresses.\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:44
 msgid ""
@@ -149,6 +190,16 @@ msgid ""
 "pertenecientes a integrantes de la universidad (profesores, estudiantes y "
 "otros).\n"
 msgstr ""
+"The project initial idea consisted of taking one of the censuses of the Bilbao "
+"City Council <a href=\"https://liburutegibiltegi.bizkaia.eus/"
+"handle/20.500.11938/80403\"target=\"_blank\">It has audiences on its website "
+"</a> to obtain several common surnames in the Bilbao area (where it is assumed "
+"that there will be more Deusto students ...). The next thing would then be to "
+"get a couple of lists of top-10 names in Basque and Spanish to combine with "
+"those surnames and, thus, have different fictitious email addresses that may "
+"or may not currently exist in the Deusto systems belonging to members of the "
+"university (teachers, students and other groups).\n"
+
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:47
 msgid ""
@@ -160,10 +211,16 @@ msgid ""
 "realizado este (dominio desde el cual enviar correos, generar la página web, "
 "etc.).\n"
 msgstr ""
+"These fictitious email addresses would be modified to satisfy different "
+"possible formats (first name.last name, first name last name ...) and thus "
+"be able to cover a greater range of possibilities when it comes to hitting the "
+"email addresses. And, once the email address lists were obtained, we would "
+"continue with the experiment in the same way as this (domain from which to send "
+"emails, generate the web page, etc.).\n"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:52
 msgid "Esta primera versión del proyecto tiene varios inconvenientes:"
-msgstr ""
+msgstr "This first version of the project has several drawbacks:"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:55
 msgid ""
@@ -171,6 +228,8 @@ msgid ""
 "cuenta, estaríamos dañando la imagen de la universidad al realizar un ataque "
 "de este tipo."
 msgstr ""
+"By organizing this from "outside" the university, on our own, we would be "
+"damaging the image of the university by carrying out such an attack."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:57
 msgid ""
@@ -182,6 +241,12 @@ msgid ""
 "con multitud de personas preguntando sobre \"¿¿¿Por qué me acaban de "
 "atacar??? ¿¿¿Qué está pasando??? ¿¿Han robado mis datos???\"."
 msgstr ""
+"If we had organized it on our own, those people who received the mail would "
+"not have any kind of confidence in the sender just for the simple fact that "
+"we are students doing a job. Not everyone at the university knows us and "
+"therefore this crisis of trust could generate quite a few headaches for the "
+"university's management team with crowds of people asking about \"Why did they "
+"just attack me ??? What's going on ??? Has my data been stolen ??? \"."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:59
 msgid ""
@@ -191,6 +256,10 @@ msgid ""
 "capaces de manejar por nuestra cuenta para que funcionase todo a la "
 "perfección."
 msgstr ""
+"The very task of preparing a hosting server for the web page and an SMTP "
+"server for the emails would have added considerable complexity to the project "
+"and, perhaps, more moving parts than we would have been able to "
+"handle on our own to make it work. everything to perfection."
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:63
 msgid ""
@@ -201,6 +270,11 @@ msgid ""
 "Fernández Álvarez (Directora de identidad digital de UD) para la posterior "
 "campaña en redes sociales.\n"
 msgstr ""
+"Thanks to the invaluable help of our Information Security professor, Iker "
+" Pastor López, who wisely pointed out these inconveniences and proposed "
+"us to carry out this same project but in a coordinated and joint way with the "
+"Computer Service, as well as with Lorena Fernández Álvarez (Director of "
+"digital identity at UD) for the subsequent campaign on social networks.\n"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:10
 msgid "¡Te hemos pillado!"
@@ -239,13 +313,13 @@ msgstr ""
 "Service of the University of Deusto, this is nothing more than a "
 "<mark>harmless test</mark> whose aim is to evaluate the <mark>student "
 "community</mark> as a possible vector of attack on the university's systems "
-"(Alud, Gaude, MyApps and other platforms).\n"
-" In other words, if you are reading this, that means that <mark>you have "
+"(Alud, Gaude, MyApps and other platforms).<br /><br />"
+"In other words, if you are reading this, that means that <mark>you have "
 "clicked on the link of an email</mark> that, at first, <mark>should have "
 "raised certain suspicions</mark>. Right now, you could be seeing an exact "
 "replica of Alud, Gaude or any other university platform copied by someone "
-"to, for example, <mark>get your login credentials</mark>.\n"
-" Do you think you would have fallen prey to it?"
+"to, for example, <mark>get your login credentials.</mark><br /"
+"><br />Do you think you would have fallen prey to it?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:37
 #: appSeguWeb/templates/appSeguWeb/phishing.html:9
@@ -306,23 +380,22 @@ msgid ""
 "improviso después de pinchar en su correo, más importante será el efecto que "
 "tendrá.<br /><br />Por lo tanto, te pedimos por favor que <mark>antes de "
 "compartir esta página, esperes al lunes XX de marzo</mark>, día en el "
-"quepublicaremos los resultados de esta campaña en nuestras redes sociales."
+"que publicaremos los resultados de esta campaña en nuestras redes sociales."
 "<br /><br />Como colofón, porque sabemos que a todos nos gustan unos buenos "
 "memes, os dejamos los que hemos creado para estacampaña y que podrías haber "
 "visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese "
 "demostrado serel gancho perfecto.<br /><br />¡Gracias!"
 msgstr ""
-"As we have explained to you, our intention with this experiment is to raise "
-"awareness. So, the more people come across this page unexpectedly after "
-"clicking on your email, the more important the effect it will have.\n"
-"Therefore, we ask you to, please, before sharing this page, wait until XXXX "
-"(MONTH DAY), the day on which we will publish the results of this campaign "
-"on our social networks.\n"
-"As an endnote, because we know that everyone likes good memes, we leave you "
+"As we have explained to you, <mark>our intention with this experiment is to raise "
+"awareness</mark>. So, the more people come across this page unexpectedly after "
+"clicking on your email, the more important the effect it will have.<br /><br />"
+"Therefore, we ask you to, please, <mark>before sharing this page, wait until XXXX "
+"(MONTH DAY)</mark>, the day on which we will publish the results of this campaign "
+"on our social networks."
+"<br /><br />As an endnote, because we know that everyone likes good memes, we leave you "
 "the ones that we have created for this campaign and that you could have seen "
 "in the header of the page, if only Vegeta's smile had not proven to be the "
-"perfect hook.\n"
-"Thanks!"
+"perfect hook.<br /><br />Thanks!"
 
 #: appSeguWeb/templates/appSeguWeb/memes.html:43
 msgid "¿Has aprendido?"
@@ -342,9 +415,9 @@ msgid ""
 ">cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada "
 "<br />importancia."
 msgstr ""
-"It is one of the most common attacks around the theft of credentials, "
-"accounts ... It must have happened to you more than once and you did not "
-"give it too much importance."
+"It is one of the most common attacks around the theft of credentials, <br /"
+">accounts ... It must have happened to you more than once and you did not "
+"give it too much <br />importance."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:19
 msgid "Phishing"
@@ -408,7 +481,7 @@ msgid ""
 msgstr ""
 "There are several types of phishing: spear phishing (when trying to attack "
 "someone in particular, a CEO, for example), smishing (SMS phishing), vishing "
-"(voice phishing)."
+"(voice phishing)..."
 
 #: appSeguWeb/templates/appSeguWeb/phishing.html:31
 msgid ""
@@ -456,12 +529,12 @@ msgstr ""
 
 #: seguWeb/settings.py:129
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: seguWeb/settings.py:130
 msgid "Español"
-msgstr ""
+msgstr "Español"
 
 #: seguWeb/settings.py:131
 msgid "Euskera"
-msgstr ""
+msgstr "Euskera"
