@@ -21,19 +21,19 @@ msgstr ""
 
 #: appSeguWeb/templates/appSeguWeb/404.html:27
 msgid "Vaya..."
-msgstr ""
+msgstr "Aiba..."
 
 #: appSeguWeb/templates/appSeguWeb/404.html:28
 msgid "Parece que no existe esa página..."
-msgstr ""
+msgstr "Webgune hori ez dirudi existizen denik..."
 
 #: appSeguWeb/templates/appSeguWeb/404.html:29
 msgid "Vuelve a la "
-msgstr ""
+msgstr "Orrialde nagusira"
 
 #: appSeguWeb/templates/appSeguWeb/404.html:29
 msgid "página principal"
-msgstr ""
+msgstr "itzuli zaitez"
 
 #: appSeguWeb/templates/appSeguWeb/base.html:68
 msgid ""
@@ -41,6 +41,7 @@ msgid ""
 "Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez y todo el equipo "
 "de Servicio Informático UD "
 msgstr ""
+"Ander Eguiluz, Iratxe Campo, Asier Fernández de Lecea, Iker Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez eta Deusto Unibertsitateko Zerbitzu informatiko talde guztiren eskutik"
 
 #: appSeguWeb/templates/appSeguWeb/experimento.html:9
 #: appSeguWeb/templates/appSeguWeb/index.html:48

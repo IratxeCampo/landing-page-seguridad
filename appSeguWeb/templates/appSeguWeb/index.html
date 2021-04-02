@@ -38,7 +38,7 @@
 							<p>{% blocktranslate %} Es uno de los ataques más comunes en torno a robo de credenciales, cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada importancia.{% endblocktranslate %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'phishing'%}" class="button">¿Qué es?</a></li>
+								<li><a href="{% url 'phishing'%}" class="button">{% translate '¿Qué es?'}</a></li>
 							</ul>
 						</article>
 					</div>
@@ -50,7 +50,7 @@
 								{% translate 'Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué función tiene y su filosofía...' %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'experimento'%}" class="button">{% translate '' %}¿De qué va?</a></li>
+								<li><a href="{% url 'experimento'%}" class="button">{% translate '¿De qué va?' %}</a></li>
 							</ul>
 						</article>
 					</div>
@@ -62,7 +62,7 @@
 								{% translate 'Echa un vistazo a los correos falsos que hemos utilizado para este experimento. ¿En cuáles crees que habrías caído?' %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'otros-correos'%}" class="button">Ver correos</a></li>
+								<li><a href="{% url 'otros-correos'%}" class="button">{% translate 'Ver correos' %}</a></li>
 							</ul>
 						</article>
 					</div>
