@@ -8,7 +8,7 @@
 			<div class="inner">
 				<img id="logodeusto" class="resize" src="{% static 'appSeguWeb/images/logodeusto.png'%}" alt="" />			
 				<h2>{% translate '¡Te hemos pillado!' %}</h2>
-				<p><strong>{% translate 'NoDeberiasVerEsto' %}</strong></p>
+				<p><strong>{% translate 'No deberías estar aquí, has caído víctima de un ataque de phishing!' %}</strong></p>
 				<ul class="actions">
 					<li><a href="#mejorasin" class="button big scrolly">{% translate '¿Qué es esto?' %}</a></li>
 				</ul>
@@ -38,7 +38,7 @@
 							<p>{% blocktranslate %} Es uno de los ataques más comunes en torno a robo de credenciales, cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada importancia.{% endblocktranslate %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'phishing'%}" class="button">{% translate '¿Qué es?'}</a></li>
+								<li><a href="{% url 'phishing'%}" class="button">{% translate '¿Qué es Phishing?' %}</a></li>
 							</ul>
 						</article>
 					</div>
