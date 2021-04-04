@@ -283,7 +283,7 @@ msgstr "Ez zenuke hemen egon behar, phishing eraso baten biktima izan zara!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:13
 msgid "¿Qué es esto?"
-msgstr "Hau zer da?"
+msgstr "Zer da hau?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:24
 msgid "Si estás en esta página..."
@@ -370,7 +370,7 @@ msgstr "Mezu elektronikoak ikusi"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:74
 msgid "Ya que estás aquí..."
-msgstr "Hemen zaudenez,…"
+msgstr "Hemen zaudenez..."
 
 #: appSeguWeb/templates/appSeguWeb/index.html:75
 msgid "¿Quieres ver memes?"

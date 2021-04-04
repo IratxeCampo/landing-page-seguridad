@@ -351,7 +351,7 @@ msgstr ""
 
 #: appSeguWeb/templates/appSeguWeb/index.html:53
 msgid "¿De qué va?"
-msgstr "What is all this about?"
+msgstr "What is this all about?"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:60
 #: appSeguWeb/templates/appSeguWeb/otros-correos.html:9
