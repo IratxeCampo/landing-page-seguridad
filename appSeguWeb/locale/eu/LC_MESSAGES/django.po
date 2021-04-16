@@ -275,7 +275,7 @@ msgstr ""
 
 #: appSeguWeb/templates/appSeguWeb/index.html:10
 msgid "¡Te hemos pillado!"
-msgstr "Pilatu zaituztegu!"
+msgstr "Harrapatu zaitugu!"
 
 #: appSeguWeb/templates/appSeguWeb/index.html:11
 msgid "No deberías estar aquí, has caído víctima de un ataque de phishing!"
