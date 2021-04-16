@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-03 10:26+0000\n"
+"POT-Creation-Date: 2021-04-16 11:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,23 +18,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: appSeguWeb/templates/appSeguWeb/404.html:27
+#: templates/appSeguWeb/404.html:27
 msgid "Vaya..."
 msgstr "Aiba..."
 
-#: appSeguWeb/templates/appSeguWeb/404.html:28
+#: templates/appSeguWeb/404.html:28
 msgid "Parece que no existe esa página..."
 msgstr "Webgune hori ez dirudi existizen denik..."
 
-#: appSeguWeb/templates/appSeguWeb/404.html:29
+#: templates/appSeguWeb/404.html:29
 msgid "Vuelve a la "
 msgstr "Orrialde nagusira"
 
-#: appSeguWeb/templates/appSeguWeb/404.html:29
+#: templates/appSeguWeb/404.html:29
 msgid "página principal"
 msgstr "itzuli zaitez"
 
-#: appSeguWeb/templates/appSeguWeb/base.html:68
+#: templates/appSeguWeb/base.html:68
 msgid ""
 "Cortesía de Ander Eguíluz, Iratxe Campo, Asier Fernández de Lecea, Iker "
 "Pastor López, Borja Sanz Urquijo, Lorena Fernández Álvarez y todo el equipo "
@@ -44,20 +44,19 @@ msgstr ""
 "Borja Sanz Urquijo, Lorena Fernández Álvarez eta Deusto Unibertsitateko "
 "Zerbitzu informatiko talde guztiren eskutik"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:9
-#: appSeguWeb/templates/appSeguWeb/index.html:48
+#: templates/appSeguWeb/experimento.html:9 templates/appSeguWeb/index.html:48
 msgid "¿De qué va este experimento exactamente?"
 msgstr "Zertan datza zehazki esperimentu hau?"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:10
+#: templates/appSeguWeb/experimento.html:10
 msgid "Te explicamos los orígenes del proyecto, su función y su filosofía."
 msgstr "Proiektuaren jatorria, funtzioa eta filosofia azalduko dizkizugu."
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:17
+#: templates/appSeguWeb/experimento.html:17
 msgid "Motivación del proyecto"
 msgstr "Proiektuaren motibazioa"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:18
+#: templates/appSeguWeb/experimento.html:18
 msgid ""
 "La motivación principal de este proyecto es la de concienciar a los "
 "estudiantes de su nivel y conocimientos actuales en lo que respecta la "
@@ -75,7 +74,7 @@ msgstr ""
 "erasotzaile izan daitekeen baten lekuan jartzea baremo ona da ikasleen "
 "taldearen alerta maila zein den ikusteko phishing-eko erasoen aurrean.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:21
+#: templates/appSeguWeb/experimento.html:21
 msgid ""
 "Anteriormente, ya se habían realizado estudios de este tipo enfocados "
 "únicamente al profesorado e investigadores de la universidad, pero nunca "
@@ -86,11 +85,11 @@ msgstr ""
 "ikertzaileei bideratuta soilik, baina  inoiz ez da egin gradu, master eta "
 "doktoregoko ikasleei zuzenduta.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:24
+#: templates/appSeguWeb/experimento.html:24
 msgid "Función del proyecto"
 msgstr "Proiektuaren funtzioa"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:25
+#: templates/appSeguWeb/experimento.html:25
 msgid ""
 "El proyecto busca ser un detonante inicial para que los estudiantes "
 "reflexionemos sobre la seguridad de la información de cada un@, mentalizar a "
@@ -109,7 +108,7 @@ msgstr ""
 "gero, informazio hitzaldiak eskaintzea proposatuko litzateke, jardunbide "
 "egokien eta informazio orokorraren inguruan.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:28
+#: templates/appSeguWeb/experimento.html:28
 msgid ""
 "En resumen, este proyecto tiene la labor de sensibilizar a la comunidad "
 "estudiantil acerca de la importancia de la seguridad digital y realizar un "
@@ -118,11 +117,11 @@ msgstr ""
 "Laburbilduz, proiektu honen asmoa da ikasleen kolektiboa sentsibilizatzea "
 "segurtasun informatikoaren garrantziaz eta egungo egoera aztertzea.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:31
+#: templates/appSeguWeb/experimento.html:31
 msgid "¿Qué se ha hecho exactamente?"
 msgstr "Zer egin da zehazki?"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:32
+#: templates/appSeguWeb/experimento.html:32
 msgid ""
 "El proyecto constaba de tres partes fundamentales: (1) un dominio desde el "
 "cual enviar los correos y hostear la página que estás viendo ahora mismo, "
@@ -141,7 +140,7 @@ msgstr ""
 "desberdinarekin bidaltzeko (hau da, batzuk beste batzuk baino landuagoak "
 "daude).\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:37
+#: templates/appSeguWeb/experimento.html:37
 msgid ""
 "Los distintos tipos de correos enviados redirigen todos a esta página de "
 "landing para poder recoger cuántas visitas únicas obtenemos y así poder "
@@ -151,11 +150,11 @@ msgstr ""
 "ikasleak, guztizko bisita kopurua zein den jakiteko eta horrela datu "
 "estatistikoak argitaratzeko, kanpaina amaitzen denean.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:40
+#: templates/appSeguWeb/experimento.html:40
 msgid "¿De dónde ha salido este proyecto?"
 msgstr "Nondik atera da proiektu hau?"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:41
+#: templates/appSeguWeb/experimento.html:41
 msgid ""
 "Originalmente, todo esto iba a ser un proyecto nuestro para la asignatura de "
 "Seguridad de la Información que tenemos los informáticos, asignatura "
@@ -175,7 +174,7 @@ msgstr ""
 "aztertzea, Deustuko helbideen inguruko gutxieneko informazio maila eta "
 "ezagutzak izanda.\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:44
+#: templates/appSeguWeb/experimento.html:44
 msgid ""
 "El proyecto consistía en coger uno de los censos que el Ayuntamiento de "
 "Bilbao <a href=\"https://liburutegibiltegi.bizkaia.eus/"
@@ -198,7 +197,7 @@ msgstr ""
 "unibertsitateko kideenak izan daitezkeenak (irakasleenak, ikasleenak eta "
 "beste talde batzuetakoenak).\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:47
+#: templates/appSeguWeb/experimento.html:47
 msgid ""
 "Esas direcciones de correo ficticias se modificarían para satisfacer "
 "diferentes posibles formatos (nombre.apellido, nombreapellido...) y así "
@@ -214,11 +213,11 @@ msgstr ""
 "jarraituko genukeen, honako hau egin dugun bezala (mezuak bidaltzeko "
 "domeinua izatea, webgunea sortzea eta abar).\n"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:52
+#: templates/appSeguWeb/experimento.html:52
 msgid "Esta primera versión del proyecto tiene varios inconvenientes:"
 msgstr "Lehenengo bertsio honek eragozpen batzuk ditu:"
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:55
+#: templates/appSeguWeb/experimento.html:55
 msgid ""
 "Al estar organizando esto desde \"fuera\" de la universidad, por nuestra "
 "cuenta, estaríamos dañando la imagen de la universidad al realizar un ataque "
@@ -227,7 +226,7 @@ msgstr ""
 "Hau unibertsitatetik \"kanpo\" burutu denez, gure kabuz, unibertsitatearen "
 "irudia kaltetuko genuke eraso hau eginez gero."
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:57
+#: templates/appSeguWeb/experimento.html:57
 msgid ""
 "Si lo hubiéramos organizado por nuestra cuenta, aquellos a los que les "
 "llegara el correo no tendrían ningún tipo de confianza en nosotros solo por "
@@ -244,7 +243,7 @@ msgstr ""
 "galderak egingo lituzkeelako: \"Zergatik egin didate eraso? Zer ari da "
 "gertatzen? Nire datuak lapurtu dituzte?\"."
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:59
+#: templates/appSeguWeb/experimento.html:59
 msgid ""
 "La propia tarea de preparar un servidor de hosteo para la página web y un "
 "servidor de SMTP para los correos habría añadido considerable complejidad al "
@@ -257,39 +256,50 @@ msgstr ""
 "proiektuari eta, agian, gure kabuz maneiatzeko gai izango ginen atal mugikor "
 "gehiegi, denak ondo funtzionatu ahal izateko."
 
-#: appSeguWeb/templates/appSeguWeb/experimento.html:63
+#: templates/appSeguWeb/experimento.html:63
+#, fuzzy
+#| msgid ""
+#| "Gracias a la inestimable ayuda de nuestro profesor de Seguridad de la "
+#| "Información, Iker Pastor López, Iker sabiamente nos señaló estos "
+#| "inconvenientes y nos propuso realizar este mismo proyecto pero de forma "
+#| "coordinada y conjunta con Servicio Informático, así como con Lorena "
+#| "Fernández Álvarez (Directora de identidad digital de UD) para la "
+#| "posterior campaña en redes sociales.\n"
 msgid ""
 "Gracias a la inestimable ayuda de nuestro profesor de Seguridad de la "
 "Información, Iker Pastor López, Iker sabiamente nos señaló estos "
 "inconvenientes y nos propuso realizar este mismo proyecto pero de forma "
-"coordinada y conjunta con Servicio Informático, así como con Lorena "
-"Fernández Álvarez (Directora de identidad digital de UD) para la posterior "
-"campaña en redes sociales.\n"
+"coordinada y conjunta con el Servicio Informático. A Alberto Martinez, "
+"Garazi Artetxe y Oscar Meruelo, del Servicio Infomático, por su apoyo y "
+"ayuda  la hora de materializar este proyecto, así como a Lorena Fernández "
+"Álvarez (Directora de identidad digital de UD) para la posterior campaña en "
+"redes sociales.\n"
 msgstr ""
 "Eskerrak eman nahi dizkiogu aparteko laguntzaile bati: Informazioaren "
 "Segurtasuneko irakasle Iker Pastor Lópezen laguntza eskuzabal eta zuhurrari "
 "esker, eragozpenak zeintzuk izan zitezkeen adierazi zigun eta proiektu hau "
-"berau Informatika Zerbitzuarekin batera koordinatuta egitea proposatu zigun, "
-"baita Lorena Fernández Álvarezekin (DUko Identitate Digitaleko zuzendaria) "
-"ere, ondoren gizarte sareetako kanpainarako.\n"
+"berau Informatika Zerbitzuarekin batera koordinatuta egitea proposatu zigun. "
+"Alberto Martinez, Garazi Artetxe eta Oscar Meruelo-ri ere, bere "
+"laguntzagatik. Azkenik, Lorena Fernández Álvarez-i (DUko Identitate "
+"Digitaleko zuzendaria) ere, ondoren gizarte sareetako kanpainagatik.\n"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:10
+#: templates/appSeguWeb/index.html:10
 msgid "¡Te hemos pillado!"
 msgstr "Harrapatu zaitugu!"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:11
+#: templates/appSeguWeb/index.html:11
 msgid "No deberías estar aquí, has caído víctima de un ataque de phishing!"
 msgstr "Ez zenuke hemen egon behar, phishing eraso baten biktima izan zara!"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:13
+#: templates/appSeguWeb/index.html:13
 msgid "¿Qué es esto?"
 msgstr "Zer da hau?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:24
+#: templates/appSeguWeb/index.html:24
 msgid "Si estás en esta página..."
 msgstr "Webgune honetan bazaude..."
 
-#: appSeguWeb/templates/appSeguWeb/index.html:25
+#: templates/appSeguWeb/index.html:25
 msgid ""
 "...significa que <mark>podrías haber caído presa de un ataque de phishing</"
 "mark> proveniente de un atacante con peores intenciones que las nuestras."
@@ -321,12 +331,11 @@ msgstr ""
 "eraso bat da. Ziur behin baino gehiagotan gertatu zaizula, baina inoiz ez "
 "diozu garrantzi gehiegirik eman.<br /><br />"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:37
-#: appSeguWeb/templates/appSeguWeb/phishing.html:9
+#: templates/appSeguWeb/index.html:37 templates/appSeguWeb/phishing.html:9
 msgid "¿Qué es un ataque de phishing?"
 msgstr "Zer da phishing erasoa?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:38
+#: templates/appSeguWeb/index.html:38
 msgid ""
 " Es uno de los ataques más comunes en torno a robo de credenciales, "
 "cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada "
@@ -335,11 +344,11 @@ msgstr ""
 "Kredentzialen lapurretan oso ohikoa den eraso bat da. Ziur behin baino "
 "gehiagotan gertatu zaizula, baina inoiz ez diozu garrantzi gehiegirik eman."
 
-#: appSeguWeb/templates/appSeguWeb/index.html:41
+#: templates/appSeguWeb/index.html:41
 msgid "¿Qué es Phishing?"
 msgstr "Zer da Phishing?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:50
+#: templates/appSeguWeb/index.html:50
 msgid ""
 "Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué "
 "función tiene y su filosofía..."
@@ -347,16 +356,15 @@ msgstr ""
 "Egin klik hemen ekimen honen inguruko informazio gehiago jakiteko: nondik "
 "datorren, zer funtzio duen eta zer filosofia duen, besteak beste."
 
-#: appSeguWeb/templates/appSeguWeb/index.html:53
+#: templates/appSeguWeb/index.html:53
 msgid "¿De qué va?"
 msgstr "Zertan datza?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:60
-#: appSeguWeb/templates/appSeguWeb/otros-correos.html:9
+#: templates/appSeguWeb/index.html:60 templates/appSeguWeb/otros-correos.html:9
 msgid "¿Qué otros correos hemos utilizado?"
 msgstr "Zer beste mezu elektroniko bidali dugula uste duzu?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:62
+#: templates/appSeguWeb/index.html:62
 msgid ""
 "Echa un vistazo a los correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
@@ -364,55 +372,55 @@ msgstr ""
 "Begiratu ezazu esperimentu honetarako zer mezu faltsu erabili ditugun. "
 "Zeinek uste duzu egingo lizukeela iruzur?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:65
+#: templates/appSeguWeb/index.html:65
 msgid "Ver correos"
 msgstr "Mezu elektronikoak ikusi"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:74
+#: templates/appSeguWeb/index.html:74
 msgid "Ya que estás aquí..."
 msgstr "Hemen zaudenez..."
 
-#: appSeguWeb/templates/appSeguWeb/index.html:75
+#: templates/appSeguWeb/index.html:75
 msgid "¿Quieres ver memes?"
 msgstr "Memeak ikusi nahi dituzu?"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:77
+#: templates/appSeguWeb/index.html:77
 msgid "Ver memes"
 msgstr "Memeak ikusi"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:86
+#: templates/appSeguWeb/index.html:86
 msgid "Antes de ir a compartir esto, ¡ESPERA!"
 msgstr "Hau partekatu baino lehen, ITXARON!"
 
-#: appSeguWeb/templates/appSeguWeb/index.html:88
+#: templates/appSeguWeb/index.html:88
 msgid ""
 " Como te hemos explicado, <mark>nuestra intención con este experimento es "
-"concienciar</mark>. Por eso, cuanta más gente seencuentre con esta página de "
-"improviso después de pinchar en su correo, más importante será el efecto que "
-"tendrá.<br /><br />Por lo tanto, te pedimos por favor que <mark>antes de "
-"compartir esta página, esperes al lunes XX de marzo</mark>, día en el "
-"quepublicaremos los resultados de esta campaña en nuestras redes sociales."
-"<br /><br />Como colofón, porque sabemos que a todos nos gustan unos buenos "
-"memes, os dejamos los que hemos creado para estacampaña y que podrías haber "
+"concienciar</mark>. Por eso, cuanta más gente se encuentre con esta página "
+"de improviso después de pinchar en su correo, más importante será el efecto "
+"que tendrá.<br /><br />Por lo tanto, te pedimos por favor que <mark>antes de "
+"compartir esta página, esperes al martes 20 de abril</mark>, día en el que "
+"publicaremos los resultados de esta campaña en nuestras redes sociales.<br /"
+"><br />Como colofón, porque sabemos que a todos nos gustan unos buenos "
+"memes, os dejamos los que hemos creado para esta campaña y que podrías haber "
 "visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese "
-"demostrado serel gancho perfecto.<br /><br />¡Gracias!"
+"demostrado ser el gancho perfecto.<br /><br />¡Gracias!"
 msgstr ""
 "Azaldu dizugun bezala, <mark>esperimentu honekin kontzientziatzea da gure "
 "asmoa</mark>. Horregatik, zenbat eta jende gehiago egon ustekabean webgune "
 "honetan, orduan eta eragin arrakastatsuagoa izango du mezu honek.<br /><br /"
 ">Hori dela eta, mesedez eskatzen dizugu, <mark>webgune hau partekatu baino "
-"lehen, itxaroteko martxoaren XXra arte</mark>, orduan argitaratuko baititugu "
+"lehen, itxaroteko apirilaren 20ra arte</mark>, orduan argitaratuko baititugu "
 "gure sare sozialetan kanpaina honetan bildutako emaitzak.<br /><br /"
 ">Azkenik, denok meme onak ikustea gustuko dugunez, hemen uzten dizkizugu "
 "kanpaina honetarako sortu ditugunak eta orrialdearen goiburuan agian ikusiko "
 "zenituenak, Vegetaren irribarre maltzurrak tenk egiteko amurik onena zela "
 "erakutsi ez balu.<br /><br />Eskerrik asko!"
 
-#: appSeguWeb/templates/appSeguWeb/memes.html:43
+#: templates/appSeguWeb/memes.html:43
 msgid "¿Has aprendido?"
 msgstr "Ikasi duzu?"
 
-#: appSeguWeb/templates/appSeguWeb/otros-correos.html:10
+#: templates/appSeguWeb/otros-correos.html:10
 msgid ""
 "Echa un vistazo al resto de correos falsos que hemos utilizado para este "
 "experimento. ¿En cuáles crees que habrías caído?"
@@ -420,7 +428,7 @@ msgstr ""
 "Begiratu ezazu esperimentu honetarako zer mezu faltsu erabili ditugun. "
 "Zeinek uste duzu egingo lizukeela iruzur?"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:10
+#: templates/appSeguWeb/phishing.html:10
 msgid ""
 "Es uno de los ataques más comunes en torno a robo de credenciales, <br /"
 ">cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada "
@@ -430,11 +438,11 @@ msgstr ""
 "gehiagotan gertatu zaizula, baina inoiz ez diozu <br />garrantzi gehiegirik "
 "eman."
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:19
+#: templates/appSeguWeb/phishing.html:19
 msgid "Phishing"
 msgstr "Phishing"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:20
+#: templates/appSeguWeb/phishing.html:20
 msgid ""
 "Por definición, un ataque de phishing consiste en la adquisición de "
 "información valiosa acerca de un sujeto pretendiendo ser alguien de "
@@ -450,7 +458,7 @@ msgstr ""
 "maltzurra izanez gero, unibertsitateko webgune bat garela simulatuko "
 "genukeen zure erabiltzaile izena eta pasahitza lortzeko."
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:22
+#: templates/appSeguWeb/phishing.html:22
 msgid ""
 "Si te fijas, la dirección de correo utilizada para enviar el mensaje no es "
 "una de las que utiliza la universidad normalmente. No estamos diciendo que "
@@ -468,7 +476,7 @@ msgstr ""
 "\">whitelisting</a>) jardunbide egokia izango litzatekeela etorkizuneko "
 "negozioko helbidea edo antzekoa izateko."
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:26
+#: templates/appSeguWeb/phishing.html:26
 msgid ""
 "De la misma manera que nosotros hemos utilizado ese dominio (proporcionado "
 "por Servicio Informático UD), se pueden comprar dominios los suficientemente "
@@ -482,11 +490,11 @@ msgstr ""
 "konturatuko zinatekeela bat batean @desuto.es edota @deusta.es daramatzaten "
 "mezuak jasotzen hasiko bazina?"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:28
+#: templates/appSeguWeb/phishing.html:28
 msgid "Multitud de medios"
 msgstr "Metodo ugari"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:29
+#: templates/appSeguWeb/phishing.html:29
 msgid ""
 "Existen varios tipos de phishing: spear phishing (cuando se intenta atacar a "
 "alguien en concreto, un CEO, por ejemplo), smishing (SMS phishing), vishing "
@@ -496,7 +504,7 @@ msgstr ""
 "saiatzen dena, zuzendari nagusi bat, adibidez), smishing (SMS phishing), "
 "vishing (voice phishing), etab."
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:31
+#: templates/appSeguWeb/phishing.html:31
 msgid ""
 "Como tal, los ataques de phishing no se limitan solo a correos empresariales "
 "u oficiales. Esta suplantación de identidad de entidades o personas de "
@@ -506,27 +514,27 @@ msgstr ""
 "Entitateen edo konfiantzazko pertsonen identitate lapurreta komunikazio "
 "metodo askorekin egin daiteke:"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:34
+#: templates/appSeguWeb/phishing.html:34
 msgid "SMS"
 msgstr "SMSak"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:35
+#: templates/appSeguWeb/phishing.html:35
 msgid "Llamadas de teléfono"
 msgstr "Telefono deiak"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:36
+#: templates/appSeguWeb/phishing.html:36
 msgid "Cartas por correo"
 msgstr "Posta gutunak"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:37
+#: templates/appSeguWeb/phishing.html:37
 msgid "Encuestas por la calle"
 msgstr "Kaleko inkestak"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:38
+#: templates/appSeguWeb/phishing.html:38
 msgid "Páginas web falsas (idénticas a las originales)"
 msgstr "Web orri faltsuak (jatorrizkoen berdinak)"
 
-#: appSeguWeb/templates/appSeguWeb/phishing.html:43
+#: templates/appSeguWeb/phishing.html:43
 msgid ""
 "\n"
 "¿Alguna vez has recibido este tipo de mensaje al teléfono? ¿Estás cansad@ de "
@@ -539,17 +547,14 @@ msgstr ""
 "jasotzeaz? Orain, behintzat, badakizu zer izen eman mezu horiei, informazio "
 "konfidentziala eskatuko lizuketenei."
 
-#: seguWeb/settings.py:129
-msgid "English"
-msgstr "English"
+#~ msgid "English"
+#~ msgstr "English"
 
-#: seguWeb/settings.py:130
-msgid "Español"
-msgstr "Español"
+#~ msgid "Español"
+#~ msgstr "Español"
 
-#: seguWeb/settings.py:131
-msgid "Euskera"
-msgstr "Euskera"
+#~ msgid "Euskera"
+#~ msgstr "Euskera"
 
 #, fuzzy
 #~| msgid "¿Qué es esto?"
