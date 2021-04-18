@@ -7,10 +7,10 @@
 		<section id="banner">
 			<div class="inner">
 				<img id="logodeusto" class="resize" src="{% static 'appSeguWeb/images/logodeusto.png'%}" alt="" />			
-				<h2>{% translate '¡Te hemos pillado!' %}</h2>
-				<p><strong>{% translate 'No deberías estar aquí, has caído víctima de un ataque de phishing!' %}</strong></p>
+				<h2>{% trans '¡Te hemos pillado!' %}</h2>
+				<p><strong>{% trans 'No deberías estar aquí, has caído víctima de un ataque de phishing!' %}</strong></p>
 				<ul class="actions">
-					<li><a href="#mejorasin" class="button big scrolly">{% translate '¿Qué es esto?' %}</a></li>
+					<li><a href="#mejorasin" class="button big scrolly">{% trans '¿Qué es esto?' %}</a></li>
 				</ul>
 				</div>
 		</section>
@@ -21,8 +21,8 @@
 				<div class="row">
 					<div class="col-md-8 offset-md-2">
 						<header class="major">
-							<h2>{% translate 'Si estás en esta página...' %}</h2>
-							<p>{%blocktranslate%}...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> proveniente de un atacante con peores intenciones que las nuestras.Organizado por el Servicio Informático de la Universidad de Deusto, esto no es más que una <mark>prueba inofensiva</mark> cuyo objetivo es el de <mark>evaluar al colectivo estudiantil</mark> como posible vector de ataque a los sistemas de la universidad (Alud, Gaude, MyApps y demás plataformas...).<br /><br />En otras palabras, si estás leyendo esto, eso quiere decir que <mark>has pinchado en el link de un correo</mark> que, en un principio, <mark>debería haber levantado ciertas sospechas</mark>. Ahora mismo podrías estar viendo una réplica exacta de la página de Alud, Gaude o cualquier otra plataforma de la universidad copiada por alguien para, por ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark><br /><br />¿Crees que habrías picado?{%endblocktranslate%}
+							<h2>{% trans 'Si estás en esta página...' %}</h2>
+							<p>{%blocktrans%}...significa que <mark>podrías haber caído presa de un ataque de phishing</mark> proveniente de un atacante con peores intenciones que las nuestras.Organizado por el Servicio Informático de la Universidad de Deusto, esto no es más que una <mark>prueba inofensiva</mark> cuyo objetivo es el de <mark>evaluar al colectivo estudiantil</mark> como posible vector de ataque a los sistemas de la universidad (Alud, Gaude, MyApps y demás plataformas...).<br /><br />En otras palabras, si estás leyendo esto, eso quiere decir que <mark>has pinchado en el link de un correo</mark> que, en un principio, <mark>debería haber levantado ciertas sospechas</mark>. Ahora mismo podrías estar viendo una réplica exacta de la página de Alud, Gaude o cualquier otra plataforma de la universidad copiada por alguien para, por ejemplo, <mark>hacerse con tus credenciales de inicio de sesión.</mark><br /><br />¿Crees que habrías picado?{%endblocktrans%}
 
 							</p>
 						</header>
@@ -34,35 +34,35 @@
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'phishing'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/phishing.png'%}" alt="" /></a>
-							<h3>{% translate '¿Qué es un ataque de phishing?' %}</h3>
-							<p>{% blocktranslate %} Es uno de los ataques más comunes en torno a robo de credenciales, cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada importancia.{% endblocktranslate %}
+							<h3>{% trans '¿Qué es un ataque de phishing?' %}</h3>
+							<p>{% blocktrans %} Es uno de los ataques más comunes en torno a robo de credenciales, cuentas... Seguro que te ha pasado más de una vez y no le diste demasiada importancia.{% endblocktrans %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'phishing'%}" class="button">{% translate '¿Qué es Phishing?' %}</a></li>
+								<li><a href="{% url 'phishing'%}" class="button">{% trans '¿Qué es Phishing?' %}</a></li>
 							</ul>
 						</article>
 					</div>
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'experimento'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/experiment.png'%}" alt="" /></a>
-							<h3>{% translate '¿De qué va este experimento exactamente?' %}</h3>
+							<h3>{% trans '¿De qué va este experimento exactamente?' %}</h3>
 							<p>
-								{% translate 'Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué función tiene y su filosofía...' %}
+								{% trans 'Pincha aquí para saber más sobre esta iniciativa: de dónde viene, qué función tiene y su filosofía...' %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'experimento'%}" class="button">{% translate '¿De qué va?' %}</a></li>
+								<li><a href="{% url 'experimento'%}" class="button">{% trans '¿De qué va?' %}</a></li>
 							</ul>
 						</article>
 					</div>
 					<div class="col-md-4">
 						<article class="box post">
 							<a href="{% url 'otros-correos'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" /></a>
-							<h3>{% translate '¿Qué otros correos hemos utilizado?' %}</h3>
+							<h3>{% trans '¿Qué otros correos hemos utilizado?' %}</h3>
 							<p>
-								{% translate 'Echa un vistazo a los correos falsos que hemos utilizado para este experimento. ¿En cuáles crees que habrías caído?' %}
+								{% trans 'Echa un vistazo a los correos falsos que hemos utilizado para este experimento. ¿En cuáles crees que habrías caído?' %}
 							</p>
 							<ul class="actions">
-								<li><a href="{% url 'otros-correos'%}" class="button">{% translate 'Ver correos' %}</a></li>
+								<li><a href="{% url 'otros-correos'%}" class="button">{% trans 'Ver correos' %}</a></li>
 							</ul>
 						</article>
 					</div>
@@ -71,10 +71,10 @@
 					<div class="col-md-4 offset-md-4">
 						<article class="box post">
 							<a href="{% url 'memes'%}" class="image fit"><img height="245px" src="{% static 'appSeguWeb/images/memes/slavcheem.jpg'%}" alt="" /></a>
-							<h4>{% translate 'Ya que estás aquí...' %}</h4>
-							<h3>{% translate '¿Quieres ver memes?' %}</h3>
+							<h4>{% trans 'Ya que estás aquí...' %}</h4>
+							<h3>{% trans '¿Quieres ver memes?' %}</h3>
 							<ul class="actions">
-								<li><a href="{% url 'memes'%}" class="button">{% translate 'Ver memes' %}</a></li>
+								<li><a href="{% url 'memes'%}" class="button">{% trans 'Ver memes' %}</a></li>
 							</ul>
 						</article>
 					</div>
@@ -83,9 +83,9 @@
 					<div class="row">
 						<div class="col-md-8 offset-md-2">
 							<br />
-							<h2>{% translate 'Antes de ir a compartir esto, ¡ESPERA!' %}</h2>
+							<h2>{% trans 'Antes de ir a compartir esto, ¡ESPERA!' %}</h2>
 							<p>
-{%blocktranslate%} Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.<br /><br />Por lo tanto, te pedimos por favor que <mark>antes de compartir esta página, esperes al martes 20 de abril</mark>, día en el que publicaremos los resultados de esta campaña en nuestras redes sociales.<br /><br />Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser el gancho perfecto.<br /><br />¡Gracias!{% endblocktranslate %}
+{%blocktrans%} Como te hemos explicado, <mark>nuestra intención con este experimento es concienciar</mark>. Por eso, cuanta más gente se encuentre con esta página de improviso después de pinchar en su correo, más importante será el efecto que tendrá.<br /><br />Por lo tanto, te pedimos por favor que <mark>antes de compartir esta página, esperes al martes 20 de abril</mark>, día en el que publicaremos los resultados de esta campaña en nuestras redes sociales.<br /><br />Como colofón, porque sabemos que a todos nos gustan unos buenos memes, os dejamos los que hemos creado para esta campaña y que podrías haber visto en el encabezado de la página, si la sonrisa de Vegeta no hubiese demostrado ser el gancho perfecto.<br /><br />¡Gracias!{% endblocktrans %}
 							</p>
 						</div>
 					</div>
