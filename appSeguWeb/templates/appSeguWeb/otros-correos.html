@@ -1,15 +1,13 @@
 {% extends "appSeguWeb/base.html" %}
 {% load static %}
 {% load i18n %}
-	
+
 {% block content %}
 <!-- Main -->
 <section id="main" class="wrapper style1">
 	<header class="major">
 		<h2>{% trans '¿Qué otros correos hemos utilizado?' %}</h2>
-		<p>{% trans 'Echa un vistazo al resto de correos falsos que hemos utilizado para este experimento. ¿En cuáles crees que habrías caído?' %}
-			
-		</p>
+		<p>{% trans 'Echa un vistazo al resto de correos falsos que hemos utilizado para este experimento. ¿En cuáles crees que habrías caído?' %}</p>
 	</header>
 	<div class="container">
 		<div class="row 150%">
@@ -19,17 +17,83 @@
 				<section id="content">
 					<img class="center" src="{% static 'appSeguWeb/images/emails.png'%}" alt="" />
 					<br />
-					<h3>Dolore Amet Consequat</h3>
-					<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-					<h3>Sed Magna Ornare</h3>
-					<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
-					<ul>
-						<li>Faucibus orci lobortis ac adipiscing integer.</li>
-						<li>Col accumsan arcu mi aliquet placerat.</li>
-						<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-						<li>Blandit massa non blandit tempor interdum.</li>
-						<li>Lacinia mattis arcu nascetur lobortis.</li>
-					</ul>
+					<p>
+						{% blocktrans %}
+							Si has llegado hasta aquí, lo más seguro es que hayas abierto un link proveniente de un correo electrónico que debería haber resultado sospechoso. A continuación, señalaremos algunos aspectos del correo que deberían haberte resultado sospechosos y que sirven de guía para futuros posibles encontronazos con otros correos de extraña naturaleza. Deberías haberte fijado en lo siguientes aspectos.
+						{% endblocktrans %}
+					</p>
+					<h3>{% trans 'Asunto' %}</h3>
+					<p>
+						{% blocktrans %}
+							En este caso, el asunto del correo es especialmente llamativo y incita a la atención. Palabras como "Aviso" o "Urgente" o similares llevan a una sensación de urgencia e inmediatez con el objetivo de asegurar cuantas más entradas al correo posibles mejor. Los correos electrónicos corporativos o universitarios, por lo general, son directos y concisos y no requieren de señalizaciones extra.
+						{% endblocktrans %}
+					</p>
+					<img id="imgASUNTO" class="center" src="{% static 'appSeguWeb/images/asunto.png'%}" alt="" />
+					<br />
+					<p>
+						{% blocktrans %}
+							Si el asunto es vistoso y/o no se corresponde con el formato usual del resto de correos corporativos/universitarios, ándate con ojo. Obviamente, si ya el propio asunto presenta faltas de ortografía, esto podría ser también suficiente motivo de sospecha.
+						{% endblocktrans %}
+					</p>
+					<h3>{% trans 'Remitente' %}</h3>
+					<p>
+						{% blocktrans %}
+							Otro componente fundamental de todo correo electrónico dirigido a estudiantes, grupos de trabajadores, etc., es el remitente. Es aconsejable echar un vistazo al remitente del correo para asegurarse de que es una dirección de correo fiable, común con otros correos anteriores y que lleva el dominio correcto correspondiente a la entidad que se supone representa (no como el caso de nuestro correo, vuelve y mira si no te has fijado...).
+						{% endblocktrans %}
+					</p>
+					<h3>{% trans 'Links' %}</h3>
+					<p>
+						{% blocktrans %}
+							En nuestro ejemplo hemos camuflado un link como hipervínculo en las palabras "secretaría virtual". Al pasar el ratón por encima, en caso del ordenador, se debería ver el link de la página a la que se te redirigirá. En los móviles debería mantenerse pulsado el hipervínculo para obtener el mismo efecto.
+						{% endblocktrans %}
+					</p>
+					<p>
+						{% blocktrans %}
+							Ordenador:
+						{% endblocktrans %}
+					</p>
+					<img id="imgLINKS_FUNAMIENTO" class="center" src="{% static 'appSeguWeb/images/links_funamiento.png'%}" alt="" />
+					<br />
+					<br />
+					<p>
+						{% blocktrans %}
+							Móviles:
+						{% endblocktrans %}
+					</p>
+					<img id="imgMOVILES" class="center" src="{% static 'appSeguWeb/images/link_moviles.png'%}" alt="" />
+					<br />
+					<img id="gifLINKS" class="center" src="{% static 'appSeguWeb/images/gifLINKS.gif'%}" alt="" />
+					<br />
+					<p>
+						{% blocktrans %}
+							Otro tipo de links a tener en cuenta son las abreviaturas de urls, como bit.ly/(cosas). No tienes mayor información sobre la página última de destino y es en esa redirección no transparente donde radica el peligro.
+						{% endblocktrans %}
+					</p>
+					<h3>{% trans 'Ortografía' %}</h3>
+					<p>
+						{% blocktrans %}
+							En función del idioma utilizado, las faltas ortográficas y gramaticales son claros indicadores de falta de esmero y cuidado a la hora de confeccionar el correo, algo que, por lo general, es común en todo correo corporativo/universitario/otro. Apuntan a un dominio del idioma subpar y, por lo tanto, merece cierto grado de atención y desconfianza. ¿Qué faltas de ortografía o gramaticales puedes ver en el correo?
+						{% endblocktrans %}
+					</p>
+					<h3>{% trans 'Propósito del correo' %}</h3>
+					<p>
+						{% blocktrans %}
+							Una vez leído este tipo de correos, normalmente se solicita que introduzcas unas credenciales una vez accedas al link. Como por ejemplo, un email en el que se te indica que eres ganador de un sorteo al que nunca te habías apuntado y te piden que rellenes una ficha en el link con tus datos. En nuestro caso se te pide que introduzcas tus credenciales para rellenar una encuesta, cosa que no es muy habitual.
+						{% endblocktrans %}
+					</p>
+					<img id="credenciales" class="center" src="{% static 'appSeguWeb/images/credenciales.png'%}" alt="" />
+					<br />
+					<h3>{% trans 'Otros' %}</h3>
+					<p>
+						{% blocktrans %}
+							Otros puntos a destacar sobre este tipo de correos pueden ser la estructura general del correo (si está bien maquetado o no), si las imágenes tienen muy baja resolución, si son un solo bloque de texto sin mayor explicación y link a una página, si la propia organización o entidad ha avisado antes de otros ataques que se han dado con los estudiantes/trabajadores en el punto de mira… Por lo general, las campañas de ataque de phishing no suelen tener correos especialmente sofisticados preparados, ya que a lo mejor se utiliza una plantilla común para atacar a varias entidades, en distintos idiomas, cada una con sus particularidades, links, redes sociales, etc.
+						{% endblocktrans %}
+					</p>
+					<p>
+						{% blocktrans %}
+							Si te fijas en la parte de abajo del correo, podrás ver un intento de tag tipo html/xml que dice "&lt;university_target_info&gt;", lo cual debería resultar alarmante por sí solo. Este tipo de errores (aunque nosotros no hayamos utilizado este tipo de maquetas) son comunes en labores de copia-pega y similares.
+						{% endblocktrans %}
+					</p>
 				</section>
 			</div>
 		</div>
