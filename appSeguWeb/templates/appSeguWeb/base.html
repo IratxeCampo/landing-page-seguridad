@@ -78,9 +78,11 @@
 				var currentURLParameters = window.location.pathname.split("/");
 				if (languages.includes(currentURLParameters[1])){
 					currentURLParameters[1] = element.name;
-					window.location = "http://127.0.0.1:8000" + currentURLParameters.join("/")
+					// window.location = "http://127.0.0.1:8000" + currentURLParameters.join("/")
+					window.location = currentURLParameters.join("/")
 				}else{
-					window.location = "http://127.0.0.1:8000/" + element.name + currentURLParameters.join("/")
+					// window.location = "http://127.0.0.1:8000/" + element.name + currentURLParameters.join("/")
+					window.location = element.name + currentURLParameters.join("/")
 				}
 			}
 		</script>
