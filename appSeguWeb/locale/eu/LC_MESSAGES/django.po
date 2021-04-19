@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-19 08:16+0000\n"
+"POT-Creation-Date: 2021-04-19 12:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -280,7 +280,7 @@ msgid "¡Te hemos pillado!"
 msgstr "Harrapatu zaitugu!"
 
 #: templates/appSeguWeb/index.html:11
-msgid "No deberías estar aquí, has caído víctima de un ataque de phishing!"
+msgid "No deberías estar aquí, ¡has caído víctima de un ataque de phishing!"
 msgstr "Ez zenuke hemen egon behar, phishing eraso baten biktima izan zara!"
 
 #: templates/appSeguWeb/index.html:13
@@ -538,7 +538,7 @@ msgid ""
 "\t\t\t\t\t\t"
 msgstr ""
 "\n"
-"\t\t\t\t\t\t\tMugikorrak\n"
+"\t\t\t\t\t\t\tMugikorrak:\n"
 "\t\t\t\t\t\t"
 
 #: templates/appSeguWeb/otros-correos.html:68
