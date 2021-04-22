@@ -26,6 +26,7 @@ SECRET_KEY = '+$mdmi+*(eutri!9^*8!asol-u6+gq@&l1ej#gj1p6e25a52@$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+#DEBUG = True
 
 ALLOWED_HOSTS = [
     # "127.0.0.1",
@@ -85,7 +86,7 @@ WSGI_APPLICATION = 'seguWeb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': str(BASE_DIR) + '/db.sqlite3',
     }
 }
 
